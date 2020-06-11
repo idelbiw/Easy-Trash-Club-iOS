@@ -34,6 +34,9 @@
                                         <state key="normal" title="GET STARTED">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="JD3-bk-Yy8" kind="show" identifier="ToRegistrationStoryboard" id="hYt-oC-H1v"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mN-6A-KBg">
                                         <rect key="frame" x="0.0" y="58" width="374" height="50"/>
@@ -70,6 +73,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139" y="110"/>
+        </scene>
+        <!--RegistrationStoryboard-->
+        <scene sceneID="Fje-OA-Vza">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Registration" referencedIdentifier="RegistrationStoryboard" id="JD3-bk-Yy8" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="foR-oO-hVn"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QOj-j6-MMd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-101" y="529"/>
         </scene>
         <!--LoginStoryboard-->
         <scene sceneID="AwW-8R-0GP">

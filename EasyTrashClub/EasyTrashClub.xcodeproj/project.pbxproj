@@ -17,6 +17,14 @@
 		12245C5F2491DABF004561E0 /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12245C5E2491DABF004561E0 /* OpeningViewController.swift */; };
 		12245C632491DF7A004561E0 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12245C622491DF7A004561E0 /* Login.storyboard */; };
 		12245C662491E2C3004561E0 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12245C652491E2C3004561E0 /* LogInViewController.swift */; };
+		122CDE452492BD03009CA994 /* UserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE442492BD03009CA994 /* UserNameViewController.swift */; };
+		122CDE472492BD10009CA994 /* UserLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE462492BD10009CA994 /* UserLocationViewController.swift */; };
+		122CDE4A2492C599009CA994 /* MainApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122CDE492492C599009CA994 /* MainApp.storyboard */; };
+		122CDE4C2492C6AA009CA994 /* UserEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE4B2492C6AA009CA994 /* UserEmailViewController.swift */; };
+		122CDE4E2492C6B6009CA994 /* UserPhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE4D2492C6B6009CA994 /* UserPhoneNumberViewController.swift */; };
+		122CDE502492C6CD009CA994 /* UserProfileImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE4F2492C6CD009CA994 /* UserProfileImageViewController.swift */; };
+		122CDE522492C6DD009CA994 /* UserPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE512492C6DD009CA994 /* UserPasswordViewController.swift */; };
+		123E3A052492B73D00953F67 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123E3A042492B73D00953F67 /* Registration.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		12245C5E2491DABF004561E0 /* OpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
 		12245C622491DF7A004561E0 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		12245C652491E2C3004561E0 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		122CDE442492BD03009CA994 /* UserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameViewController.swift; sourceTree = "<group>"; };
+		122CDE462492BD10009CA994 /* UserLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationViewController.swift; sourceTree = "<group>"; };
+		122CDE492492C599009CA994 /* MainApp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainApp.storyboard; sourceTree = "<group>"; };
+		122CDE4B2492C6AA009CA994 /* UserEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEmailViewController.swift; sourceTree = "<group>"; };
+		122CDE4D2492C6B6009CA994 /* UserPhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhoneNumberViewController.swift; sourceTree = "<group>"; };
+		122CDE4F2492C6CD009CA994 /* UserProfileImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileImageViewController.swift; sourceTree = "<group>"; };
+		122CDE512492C6DD009CA994 /* UserPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPasswordViewController.swift; sourceTree = "<group>"; };
+		123E3A042492B73D00953F67 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +183,7 @@
 		12245C582491D760004561E0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				122CDE432492BCE3009CA994 /* GetStarted */,
 				12245C642491E2AD004561E0 /* Login */,
 				12245C5D2491DAA4004561E0 /* Opening */,
 			);
@@ -183,6 +200,8 @@
 		12245C5A2491D90E004561E0 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				122CDE482492C583009CA994 /* MainApp */,
+				123E3A032492B72D00953F67 /* Registration */,
 				12245C5B2491D91F004561E0 /* Opening */,
 				12245C5C2491D938004561E0 /* Launch */,
 				12245C602491DE81004561E0 /* Login */,
@@ -228,6 +247,35 @@
 				12245C652491E2C3004561E0 /* LogInViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		122CDE432492BCE3009CA994 /* GetStarted */ = {
+			isa = PBXGroup;
+			children = (
+				122CDE442492BD03009CA994 /* UserNameViewController.swift */,
+				122CDE462492BD10009CA994 /* UserLocationViewController.swift */,
+				122CDE4B2492C6AA009CA994 /* UserEmailViewController.swift */,
+				122CDE4D2492C6B6009CA994 /* UserPhoneNumberViewController.swift */,
+				122CDE4F2492C6CD009CA994 /* UserProfileImageViewController.swift */,
+				122CDE512492C6DD009CA994 /* UserPasswordViewController.swift */,
+			);
+			path = GetStarted;
+			sourceTree = "<group>";
+		};
+		122CDE482492C583009CA994 /* MainApp */ = {
+			isa = PBXGroup;
+			children = (
+				122CDE492492C599009CA994 /* MainApp.storyboard */,
+			);
+			path = MainApp;
+			sourceTree = "<group>";
+		};
+		123E3A032492B72D00953F67 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				123E3A042492B73D00953F67 /* Registration.storyboard */,
+			);
+			path = Registration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +386,8 @@
 				12245C312491D1C6004561E0 /* LaunchScreen.storyboard in Resources */,
 				12245C2E2491D1C6004561E0 /* Assets.xcassets in Resources */,
 				12245C2C2491D1BC004561E0 /* Main.storyboard in Resources */,
+				123E3A052492B73D00953F67 /* Registration.storyboard in Resources */,
+				122CDE4A2492C599009CA994 /* MainApp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,8 +414,14 @@
 			files = (
 				12245C662491E2C3004561E0 /* LogInViewController.swift in Sources */,
 				12245C252491D1BC004561E0 /* AppDelegate.swift in Sources */,
+				122CDE472492BD10009CA994 /* UserLocationViewController.swift in Sources */,
 				12245C5F2491DABF004561E0 /* OpeningViewController.swift in Sources */,
 				12245C272491D1BC004561E0 /* SceneDelegate.swift in Sources */,
+				122CDE452492BD03009CA994 /* UserNameViewController.swift in Sources */,
+				122CDE4C2492C6AA009CA994 /* UserEmailViewController.swift in Sources */,
+				122CDE4E2492C6B6009CA994 /* UserPhoneNumberViewController.swift in Sources */,
+				122CDE522492C6DD009CA994 /* UserPasswordViewController.swift in Sources */,
+				122CDE502492C6CD009CA994 /* UserProfileImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
