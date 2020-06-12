@@ -25,6 +25,7 @@
 		122CDE502492C6CD009CA994 /* UserProfileImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE4F2492C6CD009CA994 /* UserProfileImageViewController.swift */; };
 		122CDE522492C6DD009CA994 /* UserPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE512492C6DD009CA994 /* UserPasswordViewController.swift */; };
 		123E3A052492B73D00953F67 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123E3A042492B73D00953F67 /* Registration.storyboard */; };
+		128105352493255500390BCF /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128105342493255500390BCF /* Menu.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		122CDE4F2492C6CD009CA994 /* UserProfileImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileImageViewController.swift; sourceTree = "<group>"; };
 		122CDE512492C6DD009CA994 /* UserPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPasswordViewController.swift; sourceTree = "<group>"; };
 		123E3A042492B73D00953F67 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
+		128105342493255500390BCF /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 		12245C5A2491D90E004561E0 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				128105332493254300390BCF /* Menu */,
 				122CDE482492C583009CA994 /* MainApp */,
 				123E3A032492B72D00953F67 /* Registration */,
 				12245C5B2491D91F004561E0 /* Opening */,
@@ -276,6 +279,14 @@
 				123E3A042492B73D00953F67 /* Registration.storyboard */,
 			);
 			path = Registration;
+			sourceTree = "<group>";
+		};
+		128105332493254300390BCF /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				128105342493255500390BCF /* Menu.storyboard */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,6 +393,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128105352493255500390BCF /* Menu.storyboard in Resources */,
 				12245C632491DF7A004561E0 /* Login.storyboard in Resources */,
 				12245C312491D1C6004561E0 /* LaunchScreen.storyboard in Resources */,
 				12245C2E2491D1C6004561E0 /* Assets.xcassets in Resources */,
