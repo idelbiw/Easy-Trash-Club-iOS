@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,7 +25,11 @@
 		122CDE502492C6CD009CA994 /* UserProfileImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE4F2492C6CD009CA994 /* UserProfileImageViewController.swift */; };
 		122CDE522492C6DD009CA994 /* UserPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE512492C6DD009CA994 /* UserPasswordViewController.swift */; };
 		123E3A052492B73D00953F67 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123E3A042492B73D00953F67 /* Registration.storyboard */; };
+		126A8C702494901900C80B5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 126A8C6F2494901900C80B5D /* GoogleService-Info.plist */; };
 		128105352493255500390BCF /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128105342493255500390BCF /* Menu.storyboard */; };
+		1EE4FE081A66419B8AE83F14 /* Pods_EasyTrashClub_EasyTrashClubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95D8378B3C35496D1A90011 /* Pods_EasyTrashClub_EasyTrashClubUITests.framework */; };
+		6192696C2E8793DD394901A9 /* Pods_EasyTrashClubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7775A2826FEF3AEEDE6DDC /* Pods_EasyTrashClubTests.framework */; };
+		D3555A9A0946DB939346C89C /* Pods_EasyTrashClub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F315B639649D980372B48F /* Pods_EasyTrashClub.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01F315B639649D980372B48F /* Pods_EasyTrashClub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyTrashClub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11568AC62AE4E7F263CD4FB5 /* Pods-EasyTrashClub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClub.debug.xcconfig"; path = "Target Support Files/Pods-EasyTrashClub/Pods-EasyTrashClub.debug.xcconfig"; sourceTree = "<group>"; };
 		12245C212491D1BC004561E0 /* EasyTrashClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTrashClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12245C242491D1BC004561E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12245C262491D1BC004561E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,7 +76,15 @@
 		122CDE4F2492C6CD009CA994 /* UserProfileImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileImageViewController.swift; sourceTree = "<group>"; };
 		122CDE512492C6DD009CA994 /* UserPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPasswordViewController.swift; sourceTree = "<group>"; };
 		123E3A042492B73D00953F67 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
+		126A8C6F2494901900C80B5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		128105342493255500390BCF /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		13D731842573063D63BE3BCE /* Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig"; sourceTree = "<group>"; };
+		34C559AC90EDC836F470DAFD /* Pods-EasyTrashClubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClubTests.debug.xcconfig"; path = "Target Support Files/Pods-EasyTrashClubTests/Pods-EasyTrashClubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B9FFE4172A493FB56B9E171 /* Pods-EasyTrashClub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClub.release.xcconfig"; path = "Target Support Files/Pods-EasyTrashClub/Pods-EasyTrashClub.release.xcconfig"; sourceTree = "<group>"; };
+		6F7775A2826FEF3AEEDE6DDC /* Pods_EasyTrashClubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyTrashClubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7888DEADBFB088EC97727B77 /* Pods-EasyTrashClub-EasyTrashClubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClub-EasyTrashClubUITests.debug.xcconfig"; path = "Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C25011F4BD5E29D60B4A2C /* Pods-EasyTrashClubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClubTests.release.xcconfig"; path = "Target Support Files/Pods-EasyTrashClubTests/Pods-EasyTrashClubTests.release.xcconfig"; sourceTree = "<group>"; };
+		C95D8378B3C35496D1A90011 /* Pods_EasyTrashClub_EasyTrashClubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyTrashClub_EasyTrashClubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3555A9A0946DB939346C89C /* Pods_EasyTrashClub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6192696C2E8793DD394901A9 /* Pods_EasyTrashClubTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE4FE081A66419B8AE83F14 /* Pods_EasyTrashClub_EasyTrashClubUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +122,8 @@
 				12245C3A2491D1C7004561E0 /* EasyTrashClubTests */,
 				12245C452491D1C7004561E0 /* EasyTrashClubUITests */,
 				12245C222491D1BC004561E0 /* Products */,
+				7C519D72EE45FF35D9D06800 /* Pods */,
+				C5021538D90ACA1C8ED74C36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +197,7 @@
 				12245C262491D1BC004561E0 /* SceneDelegate.swift */,
 				12245C2D2491D1C6004561E0 /* Assets.xcassets */,
 				12245C322491D1C6004561E0 /* Info.plist */,
+				126A8C6F2494901900C80B5D /* GoogleService-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -289,6 +309,29 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
+		7C519D72EE45FF35D9D06800 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11568AC62AE4E7F263CD4FB5 /* Pods-EasyTrashClub.debug.xcconfig */,
+				5B9FFE4172A493FB56B9E171 /* Pods-EasyTrashClub.release.xcconfig */,
+				7888DEADBFB088EC97727B77 /* Pods-EasyTrashClub-EasyTrashClubUITests.debug.xcconfig */,
+				13D731842573063D63BE3BCE /* Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig */,
+				34C559AC90EDC836F470DAFD /* Pods-EasyTrashClubTests.debug.xcconfig */,
+				A6C25011F4BD5E29D60B4A2C /* Pods-EasyTrashClubTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5021538D90ACA1C8ED74C36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01F315B639649D980372B48F /* Pods_EasyTrashClub.framework */,
+				C95D8378B3C35496D1A90011 /* Pods_EasyTrashClub_EasyTrashClubUITests.framework */,
+				6F7775A2826FEF3AEEDE6DDC /* Pods_EasyTrashClubTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -296,9 +339,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12245C4B2491D1C7004561E0 /* Build configuration list for PBXNativeTarget "EasyTrashClub" */;
 			buildPhases = (
+				9B06BCAA383268D8CFDB6A4B /* [CP] Check Pods Manifest.lock */,
 				12245C1D2491D1BC004561E0 /* Sources */,
 				12245C1E2491D1BC004561E0 /* Frameworks */,
 				12245C1F2491D1BC004561E0 /* Resources */,
+				7D3B6FAD6FCC8F1AFF413DF4 /* [CP] Embed Pods Frameworks */,
+				3CC4706FED6A974A71048169 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -313,6 +359,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12245C4E2491D1C7004561E0 /* Build configuration list for PBXNativeTarget "EasyTrashClubTests" */;
 			buildPhases = (
+				B82C602D8DC2E7DA44DE527D /* [CP] Check Pods Manifest.lock */,
 				12245C332491D1C7004561E0 /* Sources */,
 				12245C342491D1C7004561E0 /* Frameworks */,
 				12245C352491D1C7004561E0 /* Resources */,
@@ -331,9 +378,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12245C512491D1C7004561E0 /* Build configuration list for PBXNativeTarget "EasyTrashClubUITests" */;
 			buildPhases = (
+				DFE815C2C81A9E14A889B9CF /* [CP] Check Pods Manifest.lock */,
 				12245C3E2491D1C7004561E0 /* Sources */,
 				12245C3F2491D1C7004561E0 /* Frameworks */,
 				12245C402491D1C7004561E0 /* Resources */,
+				B27601D6F6EC625AF9302379 /* [CP] Embed Pods Frameworks */,
+				757C1302E523285DED82E785 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -394,6 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				128105352493255500390BCF /* Menu.storyboard in Resources */,
+				126A8C702494901900C80B5D /* GoogleService-Info.plist in Resources */,
 				12245C632491DF7A004561E0 /* Login.storyboard in Resources */,
 				12245C312491D1C6004561E0 /* LaunchScreen.storyboard in Resources */,
 				12245C2E2491D1C6004561E0 /* Assets.xcassets in Resources */,
@@ -418,6 +469,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CC4706FED6A974A71048169 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub/Pods-EasyTrashClub-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub/Pods-EasyTrashClub-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub/Pods-EasyTrashClub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		757C1302E523285DED82E785 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D3B6FAD6FCC8F1AFF413DF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub/Pods-EasyTrashClub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub/Pods-EasyTrashClub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub/Pods-EasyTrashClub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B06BCAA383268D8CFDB6A4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyTrashClub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B27601D6F6EC625AF9302379 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B82C602D8DC2E7DA44DE527D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyTrashClubTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE815C2C81A9E14A889B9CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyTrashClub-EasyTrashClubUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12245C1D2491D1BC004561E0 /* Sources */ = {
@@ -604,6 +792,7 @@
 		};
 		12245C4C2491D1C7004561E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11568AC62AE4E7F263CD4FB5 /* Pods-EasyTrashClub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -623,6 +812,7 @@
 		};
 		12245C4D2491D1C7004561E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B9FFE4172A493FB56B9E171 /* Pods-EasyTrashClub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -642,6 +832,7 @@
 		};
 		12245C4F2491D1C7004561E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C559AC90EDC836F470DAFD /* Pods-EasyTrashClubTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -664,6 +855,7 @@
 		};
 		12245C502491D1C7004561E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C25011F4BD5E29D60B4A2C /* Pods-EasyTrashClubTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -686,6 +878,7 @@
 		};
 		12245C522491D1C7004561E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7888DEADBFB088EC97727B77 /* Pods-EasyTrashClub-EasyTrashClubUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -706,6 +899,7 @@
 		};
 		12245C532491D1C7004561E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D731842573063D63BE3BCE /* Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

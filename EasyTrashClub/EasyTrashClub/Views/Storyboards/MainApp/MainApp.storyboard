@@ -14,18 +14,7 @@
                     <view key="view" contentMode="scaleToFill" id="FAA-gv-uUo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pnX-ld-DD8">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
-                            </mapView>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="pnX-ld-DD8" firstAttribute="leading" secondItem="pav-FP-J63" secondAttribute="leading" id="E2u-J3-qKH"/>
-                            <constraint firstItem="pnX-ld-DD8" firstAttribute="top" secondItem="FAA-gv-uUo" secondAttribute="top" id="LqI-9x-13Y"/>
-                            <constraint firstItem="pnX-ld-DD8" firstAttribute="bottom" secondItem="pav-FP-J63" secondAttribute="bottom" id="fcD-0r-NOj"/>
-                            <constraint firstItem="pnX-ld-DD8" firstAttribute="trailing" secondItem="pav-FP-J63" secondAttribute="trailing" id="mKO-vH-cTL"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="pav-FP-J63"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Request" image="trash" catalog="system" id="Zzs-bJ-nBm"/>
@@ -41,6 +30,7 @@
                 <tabBarController storyboardIdentifier="MainAppStoryboard" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Hbx-SD-rfh" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fSV-bw-76b">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
