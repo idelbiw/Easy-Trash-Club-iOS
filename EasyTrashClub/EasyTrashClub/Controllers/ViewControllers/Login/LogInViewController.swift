@@ -8,6 +8,7 @@
 
 import UIKit
 
+@IBDesignable
 class LogInViewController: UIViewController {
 
     @IBOutlet weak var usernameTextField: UITextField!
@@ -30,7 +31,7 @@ class LogInViewController: UIViewController {
         
         appleLoginButton.layer.cornerRadius = appleLoginButton.frame.size.height / 2
         appleLoginButton.layer.borderWidth = 1
-        appleLoginButton.layer.borderColor = UIColor.black.cgColor
+        appleLoginButton.layer.borderColor = UIColor.white.cgColor
         
         facebookLoginButton.layer.cornerRadius = facebookLoginButton.frame.size.height / 2
         
