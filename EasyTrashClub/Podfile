@@ -1,0 +1,30 @@
+platform :ios, '13.0'
+
+target 'EasyTrashClub' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for EasyTrashClub
+
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Crashlytics'
+  pod 'Firebase/InAppMessaging'
+  pod 'Firebase/Performance'
+  pod 'Firebase/Database'
+  pod 'Firebase/RemoteConfig'
+  
+  pod 'Alamofire', '~> 5.2'
+
+  target 'EasyTrashClubTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'EasyTrashClubUITests' do
+    # Pods for testing
+  end
+
+end
