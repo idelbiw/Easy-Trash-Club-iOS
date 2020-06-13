@@ -15,10 +15,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sgj-7w-naC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Easy Trash Club" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSq-5f-Hpq">
                                 <rect key="frame" x="20" y="164" width="374" height="48"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="40"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gAB-0q-qHj">
@@ -35,7 +39,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="JD3-bk-Yy8" kind="show" identifier="ToRegistrationStoryboard" id="hYt-oC-H1v"/>
+                                            <segue destination="JD3-bk-Yy8" kind="presentation" identifier="ToRegistrationStoryboard" modalPresentationStyle="fullScreen" id="hYt-oC-H1v"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mN-6A-KBg">
@@ -48,7 +52,7 @@
                                             <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="IUQ-5s-ePZ" kind="presentation" identifier="ToLoginStoryboard" id="RDJ-nz-3dv"/>
+                                            <segue destination="IUQ-5s-ePZ" kind="presentation" identifier="ToLoginStoryboard" modalPresentationStyle="fullScreen" id="RDJ-nz-3dv"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -57,10 +61,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="zSq-5f-Hpq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="7QM-2m-WaO"/>
+                            <constraint firstAttribute="bottom" secondItem="sgj-7w-naC" secondAttribute="bottom" id="Ig4-7Q-U8r"/>
                             <constraint firstItem="gAB-0q-qHj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="OWE-UR-92s"/>
+                            <constraint firstItem="sgj-7w-naC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WDn-JW-jbv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zSq-5f-Hpq" secondAttribute="trailing" constant="20" id="itW-ZY-erw"/>
+                            <constraint firstItem="sgj-7w-naC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jxf-gZ-4Dw"/>
                             <constraint firstItem="zSq-5f-Hpq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lwW-e6-NtX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gAB-0q-qHj" secondAttribute="trailing" constant="20" id="pp2-Oo-6pD"/>
+                            <constraint firstItem="sgj-7w-naC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="q35-Pt-vHd"/>
                             <constraint firstItem="gAB-0q-qHj" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="zGe-KX-DME"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -72,7 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="110"/>
+            <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
         </scene>
         <!--RegistrationStoryboard-->
         <scene sceneID="Fje-OA-Vza">

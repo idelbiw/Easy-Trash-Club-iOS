@@ -33,13 +33,13 @@ class UserNameViewController: UIViewController {
         
         appleLogInButton.layer.cornerRadius = appleLogInButton.frame.size.height / 2
         appleLogInButton.layer.borderWidth = 1
-        appleLogInButton.layer.borderColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        appleLogInButton.layer.borderColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         
         facebookLogInButton.layer.cornerRadius = facebookLogInButton.frame.size.height / 2
         
         googleLogInButton.layer.cornerRadius = googleLogInButton.frame.size.height / 2
         googleLogInButton.layer.borderWidth = 1
-        googleLogInButton.layer.borderColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        googleLogInButton.layer.borderColor = #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)
 
     }
     

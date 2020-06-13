@@ -17,7 +17,7 @@ class UserPasswordViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        configureNextButton()
     }
     
     //MARK: - Helper Functions
