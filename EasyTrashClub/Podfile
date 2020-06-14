@@ -5,16 +5,6 @@ target 'EasyTrashClub' do
   use_frameworks!
 
   # Pods for EasyTrashClub
-
-  pod 'Firebase/Analytics'
-  pod 'Firebase/Core'
-  pod 'Firebase/Auth'
-  pod 'Firebase/Messaging'
-  pod 'Firebase/Crashlytics'
-  pod 'Firebase/InAppMessaging'
-  pod 'Firebase/Performance'
-  pod 'Firebase/Database'
-  pod 'Firebase/RemoteConfig'
   
   pod 'Alamofire', '~> 5.2'
 
