@@ -25,7 +25,9 @@
 		122CDE502492C6CD009CA994 /* UserProfileImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE4F2492C6CD009CA994 /* UserProfileImageViewController.swift */; };
 		122CDE522492C6DD009CA994 /* UserPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE512492C6DD009CA994 /* UserPasswordViewController.swift */; };
 		123E3A052492B73D00953F67 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123E3A042492B73D00953F67 /* Registration.storyboard */; };
-		1257C6AD249679CE00E4EC91 /* EasyTrashClub.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1257C6AC249679CE00E4EC91 /* EasyTrashClub.mp4 */; };
+		1257C6AF2496F75500E4EC91 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257C6AE2496F75500E4EC91 /* Menu.swift */; };
+		1257C6B22496F78500E4EC91 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257C6B12496F78500E4EC91 /* MenuController.swift */; };
+		1257C6B7249702A500E4EC91 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257C6B6249702A500E4EC91 /* MenuTableViewController.swift */; };
 		126A8C702494901900C80B5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 126A8C6F2494901900C80B5D /* GoogleService-Info.plist */; };
 		128105352493255500390BCF /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128105342493255500390BCF /* Menu.storyboard */; };
 		1EE4FE081A66419B8AE83F14 /* Pods_EasyTrashClub_EasyTrashClubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95D8378B3C35496D1A90011 /* Pods_EasyTrashClub_EasyTrashClubUITests.framework */; };
@@ -77,7 +79,9 @@
 		122CDE4F2492C6CD009CA994 /* UserProfileImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileImageViewController.swift; sourceTree = "<group>"; };
 		122CDE512492C6DD009CA994 /* UserPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPasswordViewController.swift; sourceTree = "<group>"; };
 		123E3A042492B73D00953F67 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
-		1257C6AC249679CE00E4EC91 /* EasyTrashClub.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = EasyTrashClub.mp4; path = ../../../../EasyTrashClubProperties/EasyTrashClub.mp4; sourceTree = "<group>"; };
+		1257C6AE2496F75500E4EC91 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		1257C6B12496F78500E4EC91 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		1257C6B6249702A500E4EC91 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		126A8C6F2494901900C80B5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		128105342493255500390BCF /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		13D731842573063D63BE3BCE /* Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -180,6 +184,7 @@
 		12245C552491D704004561E0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1257C6B02496F75A00E4EC91 /* New Group */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 		12245C582491D760004561E0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1257C6B32497009900E4EC91 /* Menu */,
 				122CDE432492BCE3009CA994 /* GetStarted */,
 				12245C642491E2AD004561E0 /* Login */,
 				12245C5D2491DAA4004561E0 /* Opening */,
@@ -218,6 +224,7 @@
 		12245C592491D770004561E0 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1257C6B12496F78500E4EC91 /* MenuController.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -304,6 +311,22 @@
 			path = Registration;
 			sourceTree = "<group>";
 		};
+		1257C6B02496F75A00E4EC91 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				1257C6AE2496F75500E4EC91 /* Menu.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		1257C6B32497009900E4EC91 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				1257C6B6249702A500E4EC91 /* MenuTableViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		128105332493254300390BCF /* Menu */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,7 +338,6 @@
 		12BC6AAC2494B0B70037E143 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
-				1257C6AC249679CE00E4EC91 /* EasyTrashClub.mp4 */,
 			);
 			path = Videos;
 			sourceTree = "<group>";
@@ -455,7 +477,6 @@
 				128105352493255500390BCF /* Menu.storyboard in Resources */,
 				126A8C702494901900C80B5D /* GoogleService-Info.plist in Resources */,
 				12245C632491DF7A004561E0 /* Login.storyboard in Resources */,
-				1257C6AD249679CE00E4EC91 /* EasyTrashClub.mp4 in Resources */,
 				12245C312491D1C6004561E0 /* LaunchScreen.storyboard in Resources */,
 				12245C2E2491D1C6004561E0 /* Assets.xcassets in Resources */,
 				12245C2C2491D1BC004561E0 /* Main.storyboard in Resources */,
@@ -590,9 +611,12 @@
 			files = (
 				12245C662491E2C3004561E0 /* LogInViewController.swift in Sources */,
 				12245C252491D1BC004561E0 /* AppDelegate.swift in Sources */,
+				1257C6B7249702A500E4EC91 /* MenuTableViewController.swift in Sources */,
 				122CDE472492BD10009CA994 /* UserLocationViewController.swift in Sources */,
 				12245C5F2491DABF004561E0 /* OpeningViewController.swift in Sources */,
+				1257C6B22496F78500E4EC91 /* MenuController.swift in Sources */,
 				12245C272491D1BC004561E0 /* SceneDelegate.swift in Sources */,
+				1257C6AF2496F75500E4EC91 /* Menu.swift in Sources */,
 				122CDE452492BD03009CA994 /* UserNameViewController.swift in Sources */,
 				122CDE4C2492C6AA009CA994 /* UserEmailViewController.swift in Sources */,
 				122CDE4E2492C6B6009CA994 /* UserPhoneNumberViewController.swift in Sources */,
