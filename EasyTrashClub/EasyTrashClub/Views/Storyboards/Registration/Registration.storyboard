@@ -10,7 +10,7 @@
         <!--User Name View Controller-->
         <scene sceneID="v24-N8-746">
             <objects>
-                <viewController storyboardIdentifier="RegistrationStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="22i-O1-PB1" customClass="UserNameViewController" customModule="EasyTrashClub" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RegistrationViewController" id="22i-O1-PB1" customClass="UserNameViewController" customModule="EasyTrashClub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="thk-rZ-bWq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -116,7 +116,6 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="usernameNextButtonTapped:" destination="22i-O1-PB1" eventType="touchUpInside" id="9Qq-t4-6eh"/>
                                             <segue destination="Sxe-Sy-oLk" kind="presentation" identifier="ToUserLocationViewController" modalPresentationStyle="fullScreen" id="AOZ-O9-RLb"/>
                                         </connections>
                                     </button>
@@ -160,6 +159,8 @@
                         <outlet property="appleLogInButton" destination="qlJ-gD-wQh" id="kdS-ye-eGh"/>
                         <outlet property="facebookLogInButton" destination="ZaY-Xr-Qfi" id="nIG-QW-In4"/>
                         <outlet property="googleLogInButton" destination="13R-GP-Fc5" id="Rfg-IJ-myn"/>
+                        <outlet property="userFirstNameTextField" destination="DZq-yk-PiZ" id="Iyc-va-box"/>
+                        <outlet property="userLastNameTextField" destination="YSy-MY-1v8" id="ToF-Zb-62h"/>
                         <outlet property="usernameNextButton" destination="aGJ-U0-oxT" id="P2d-PO-fdD"/>
                     </connections>
                 </viewController>
@@ -674,10 +675,10 @@
             </objects>
             <point key="canvasLocation" x="4174" y="110"/>
         </scene>
-        <!--MainAppStoryboard-->
+        <!--HomeViewController-->
         <scene sceneID="k2m-CO-nvu">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="MainAppStoryboard" storyboardName="MainApp" referencedIdentifier="MainAppStoryboard" id="VLh-4R-tLP" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="MainAppViewController" storyboardName="Home" referencedIdentifier="HomeViewController" id="VLh-4R-tLP" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PD4-PS-etd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4818" y="110"/>
