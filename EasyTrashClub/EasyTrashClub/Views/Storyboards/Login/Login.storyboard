@@ -10,7 +10,7 @@
         <!--Log In View Controller-->
         <scene sceneID="LFT-K3-M2M">
             <objects>
-                <viewController storyboardIdentifier="LoginStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kGl-7I-KAQ" customClass="LogInViewController" customModule="EasyTrashClub" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kGl-7I-KAQ" customClass="LogInViewController" customModule="EasyTrashClub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kpF-u2-yO8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,8 +65,8 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="logInButtonTapped:" destination="kGl-7I-KAQ" eventType="touchUpInside" id="hFw-97-zWd"/>
-                                            <segue destination="qh9-sT-CKz" kind="presentation" modalPresentationStyle="fullScreen" id="1lH-4Z-bSS"/>
+                                            <action selector="logInButtonTapped:" destination="kGl-7I-KAQ" eventType="touchUpInside" id="DBt-yh-Pho"/>
+                                            <segue destination="qh9-sT-CKz" kind="presentation" identifier="ToMainAppViewController" modalPresentationStyle="fullScreen" id="1lH-4Z-bSS"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GM4-AW-RT7">
@@ -75,7 +75,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="alreadHaveAnAccountButtonTapped:" destination="kGl-7I-KAQ" eventType="touchUpInside" id="YVH-KM-Mdi"/>
+                                            <action selector="alreadHaveAnAccountButtonTapped:" destination="kGl-7I-KAQ" eventType="touchUpInside" id="bXz-s6-CKH"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -105,7 +105,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="appleLoginButtonTapped:" destination="kGl-7I-KAQ" eventType="touchUpInside" id="c6k-aG-fUg"/>
+                                            <action selector="appleLoginButtonTapped:" destination="kGl-7I-KAQ" eventType="touchUpInside" id="n8l-oy-1RJ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04M-sy-i1S">
@@ -119,7 +119,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="facebookLoginButtonTapped:" destination="kGl-7I-KAQ" eventType="touchUpInside" id="Zmb-ps-XLX"/>
+                                            <action selector="facebookLoginButtonTapped:" destination="kGl-7I-KAQ" eventType="touchUpInside" id="jR2-uu-afA"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ig-Jr-zmA">
@@ -133,7 +133,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="googleLoginButtonTapped:" destination="kGl-7I-KAQ" eventType="touchUpInside" id="vlL-f8-r5C"/>
+                                            <action selector="googleLoginButtonTapped:" destination="kGl-7I-KAQ" eventType="touchUpInside" id="JPx-hl-bM7"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -151,22 +151,23 @@
                         <viewLayoutGuide key="safeArea" id="kzv-b0-hGl"/>
                     </view>
                     <connections>
-                        <outlet property="alreadyHaveAnAccountButton" destination="GM4-AW-RT7" id="g8W-S1-JM0"/>
-                        <outlet property="appleLoginButton" destination="RrN-Oh-Okm" id="7EB-cN-lta"/>
-                        <outlet property="facebookLoginButton" destination="04M-sy-i1S" id="gKe-OG-EAD"/>
-                        <outlet property="googleLoginButton" destination="8ig-Jr-zmA" id="u7x-ut-rgn"/>
-                        <outlet property="loginButton" destination="Lfu-e1-Oir" id="Bu0-DC-yO9"/>
-                        <outlet property="usernameTextField" destination="7sW-SS-8AD" id="zzf-6y-WdE"/>
+                        <outlet property="alreadyHaveAnAccountButton" destination="Lfu-e1-Oir" id="4VD-1E-QHX"/>
+                        <outlet property="appleLoginButton" destination="RrN-Oh-Okm" id="JnN-Bv-ZrZ"/>
+                        <outlet property="facebookLoginButton" destination="04M-sy-i1S" id="W9s-0O-HBA"/>
+                        <outlet property="googleLoginButton" destination="8ig-Jr-zmA" id="wHB-6P-Y9g"/>
+                        <outlet property="loginButton" destination="Lfu-e1-Oir" id="YVI-aM-aRP"/>
+                        <outlet property="passwordTextField" destination="noM-Rf-hVN" id="TDU-fD-bvr"/>
+                        <outlet property="usernameTextField" destination="7sW-SS-8AD" id="2gr-t2-ibP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="04e-Tx-QUI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1" y="2"/>
         </scene>
-        <!--MainAppStoryboard-->
+        <!--HomeViewController-->
         <scene sceneID="2zL-uz-b98">
             <objects>
-                <viewControllerPlaceholder storyboardName="MainApp" referencedIdentifier="MainAppStoryboard" id="qh9-sT-CKz" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Home" referencedIdentifier="HomeViewController" id="qh9-sT-CKz" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mlL-6O-ryN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="623" y="1"/>

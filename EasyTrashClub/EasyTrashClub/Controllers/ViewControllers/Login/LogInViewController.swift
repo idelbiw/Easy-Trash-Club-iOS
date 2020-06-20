@@ -38,18 +38,7 @@ class LogInViewController: UIViewController {
         googleLoginButton.layer.cornerRadius = googleLoginButton.frame.size.height / 2
     }
     
-    
-    
-    
     //MARK: - Action Functions
-    
-    @IBAction func usernameTextFieldEdited(_ sender: UITextField) {
-        
-    }
-    
-    @IBAction func passwordTextFieldEdited(_ sender: UITextField) {
-        
-    }
     
     @IBAction func logInButtonTapped(_ sender: UIButton) {
         

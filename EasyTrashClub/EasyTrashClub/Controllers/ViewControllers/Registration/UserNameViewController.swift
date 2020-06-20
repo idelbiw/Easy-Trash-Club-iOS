@@ -47,16 +47,9 @@ class UserNameViewController: UIViewController {
     
     
     //MARK: - Action Functions
-    @IBAction func userFirstNameTextFieldEdited(_ sender: UITextField) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-    }
-    
-    @IBAction func userLastNameTextFieldEdited(_ sender: UITextField) {
-        
-    }
-    
-    @IBAction func usernameNextButtonTapped(_ sender: UIButton) {
-        
+            
     }
     
     @IBAction func alreadyHaveAnAccountTapped(_ sender: UIButton) {

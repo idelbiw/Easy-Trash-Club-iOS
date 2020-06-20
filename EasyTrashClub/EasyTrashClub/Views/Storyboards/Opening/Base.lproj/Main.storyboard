@@ -39,7 +39,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="JD3-bk-Yy8" kind="presentation" identifier="ToRegistrationStoryboard" modalPresentationStyle="fullScreen" id="hYt-oC-H1v"/>
+                                            <segue destination="JD3-bk-Yy8" kind="presentation" identifier="ToRegistrationViewController" modalPresentationStyle="fullScreen" id="hYt-oC-H1v"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mN-6A-KBg">
@@ -52,7 +52,7 @@
                                             <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="IUQ-5s-ePZ" kind="presentation" identifier="ToLoginStoryboard" modalPresentationStyle="fullScreen" id="RDJ-nz-3dv"/>
+                                            <segue destination="IUQ-5s-ePZ" kind="presentation" identifier="ToLoginViewController" modalPresentationStyle="fullScreen" id="RDJ-nz-3dv"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -82,20 +82,20 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
         </scene>
-        <!--RegistrationStoryboard-->
+        <!--RegistrationViewController-->
         <scene sceneID="Fje-OA-Vza">
             <objects>
-                <viewControllerPlaceholder storyboardName="Registration" referencedIdentifier="RegistrationStoryboard" id="JD3-bk-Yy8" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="RegistrationViewController" storyboardName="Registration" referencedIdentifier="RegistrationViewController" id="JD3-bk-Yy8" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="foR-oO-hVn"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QOj-j6-MMd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-101" y="529"/>
         </scene>
-        <!--LoginStoryboard-->
+        <!--LoginViewController-->
         <scene sceneID="AwW-8R-0GP">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="LoginStoryboard" storyboardName="Login" referencedIdentifier="LoginStoryboard" id="IUQ-5s-ePZ" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="LoginViewController" storyboardName="Login" referencedIdentifier="LoginViewController" id="IUQ-5s-ePZ" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GD7-eP-t85" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="320" y="528"/>
