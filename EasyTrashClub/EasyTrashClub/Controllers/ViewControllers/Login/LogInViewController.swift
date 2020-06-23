@@ -11,20 +11,43 @@ import UIKit
 @IBDesignable
 class LogInViewController: UIViewController {
     
-    @IBOutlet weak var segmentedLogin: UISegmentedControl!
-    @IBOutlet weak var usernameTextField: UITextField!
-    @IBOutlet weak var userPasswordTextField: UITextField!
-    @IBOutlet weak var userConfirmPassword: UITextField!
+    //MARK: - IBOutlets
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    @IBOutlet weak var loginContainerView: UIView!
+    @IBOutlet weak var createAnAccountContainerView: UIView!
     @IBOutlet weak var loginButton: UIButton!
+    
+    var isHidden: Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureLoginButton()
     }
     
+    //MARK: - Helper Methods
     
-    @IBAction func segmentedLoginSwitched(_ sender: UISegmentedControl) {
+    func createAnAccount() {
         
+    }
+    
+    func logIn() {
         
+    }
+
+    func configureLoginButton() {
+        loginButton.layer.cornerRadius = loginButton.frame.size.height / 2
+    }
+    
+    //MARK: - Action Functions
+    
+    @IBAction func didChangeSegmentedValue(_ sender: UISegmentedControl) {
+        if sender.selectedSegmentIndex == 0 {
+            createAnAccountContainerView.alpha = 1
+            loginContainerView.alpha = 0
+        } else {
+            createAnAccountContainerView.alpha = 0
+            loginContainerView.alpha = 1
+        }
     }
     
     

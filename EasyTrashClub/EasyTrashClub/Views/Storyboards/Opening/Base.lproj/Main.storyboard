@@ -39,7 +39,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="cbF-DQ-7XP" kind="presentation" identifier="ToLogInViewController" id="gML-2i-44i"/>
+                                            <segue destination="cbF-DQ-7XP" kind="presentation" identifier="ToLogInViewStoryboard" modalPresentationStyle="fullScreen" id="gML-2i-44i"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -68,10 +68,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--LogInViewStoryboard-->
         <scene sceneID="76H-8L-36h">
             <objects>
-                <viewControllerPlaceholder id="cbF-DQ-7XP" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="LogInStoryboard" storyboardName="Login" referencedIdentifier="LogInViewStoryboard" id="cbF-DQ-7XP" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YB4-1f-C5o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="138" y="546"/>

@@ -17,10 +17,11 @@
 		12245C5F2491DABF004561E0 /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12245C5E2491DABF004561E0 /* OpeningViewController.swift */; };
 		12245C632491DF7A004561E0 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12245C622491DF7A004561E0 /* Login.storyboard */; };
 		12245C662491E2C3004561E0 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12245C652491E2C3004561E0 /* LogInViewController.swift */; };
-		123D61B4249DAD8A00CABFAB /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123D61B3249DAD8A00CABFAB /* Home.storyboard */; };
 		123D61BC249DCBEB00CABFAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123D61BB249DCBEB00CABFAB /* HomeViewController.swift */; };
 		123E533824A1669800A15B53 /* EasyTrashClub.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 123E533724A1669800A15B53 /* EasyTrashClub.mp4 */; };
 		126A8C702494901900C80B5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 126A8C6F2494901900C80B5D /* GoogleService-Info.plist */; };
+		12D2EC4624A1C4900010DAE4 /* LogInViewContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2EC4524A1C4900010DAE4 /* LogInViewContainerView.swift */; };
+		12D2EC4824A1C4A50010DAE4 /* CreateAnAccountContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2EC4724A1C4A50010DAE4 /* CreateAnAccountContainerView.swift */; };
 		1EE4FE081A66419B8AE83F14 /* Pods_EasyTrashClub_EasyTrashClubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95D8378B3C35496D1A90011 /* Pods_EasyTrashClub_EasyTrashClubUITests.framework */; };
 		6192696C2E8793DD394901A9 /* Pods_EasyTrashClubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7775A2826FEF3AEEDE6DDC /* Pods_EasyTrashClubTests.framework */; };
 		D3555A9A0946DB939346C89C /* Pods_EasyTrashClub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F315B639649D980372B48F /* Pods_EasyTrashClub.framework */; };
@@ -62,10 +63,11 @@
 		12245C5E2491DABF004561E0 /* OpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
 		12245C622491DF7A004561E0 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		12245C652491E2C3004561E0 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
-		123D61B3249DAD8A00CABFAB /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		123D61BB249DCBEB00CABFAB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		123E533724A1669800A15B53 /* EasyTrashClub.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = EasyTrashClub.mp4; path = ../../../../EasyTrashClubProperties/EasyTrashClub.mp4; sourceTree = "<group>"; };
 		126A8C6F2494901900C80B5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		12D2EC4524A1C4900010DAE4 /* LogInViewContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewContainerView.swift; sourceTree = "<group>"; };
+		12D2EC4724A1C4A50010DAE4 /* CreateAnAccountContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAnAccountContainerView.swift; sourceTree = "<group>"; };
 		13D731842573063D63BE3BCE /* Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig"; sourceTree = "<group>"; };
 		34C559AC90EDC836F470DAFD /* Pods-EasyTrashClubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClubTests.debug.xcconfig"; path = "Target Support Files/Pods-EasyTrashClubTests/Pods-EasyTrashClubTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B9FFE4172A493FB56B9E171 /* Pods-EasyTrashClub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClub.release.xcconfig"; path = "Target Support Files/Pods-EasyTrashClub/Pods-EasyTrashClub.release.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 		12245C582491D760004561E0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				12593E8E24A1BF7F00897B4B /* ContainerViews */,
 				123D61B0249DA92D00CABFAB /* Menu */,
 				123D61AB249DA8BD00CABFAB /* Home */,
 				122CDE432492BCE3009CA994 /* Registration */,
@@ -271,7 +274,6 @@
 		122CDE482492C583009CA994 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				123D61B3249DAD8A00CABFAB /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -289,6 +291,15 @@
 			children = (
 			);
 			path = Menu;
+			sourceTree = "<group>";
+		};
+		12593E8E24A1BF7F00897B4B /* ContainerViews */ = {
+			isa = PBXGroup;
+			children = (
+				12D2EC4524A1C4900010DAE4 /* LogInViewContainerView.swift */,
+				12D2EC4724A1C4A50010DAE4 /* CreateAnAccountContainerView.swift */,
+			);
+			path = ContainerViews;
 			sourceTree = "<group>";
 		};
 		12BC6AAC2494B0B70037E143 /* Videos */ = {
@@ -429,7 +440,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				123D61B4249DAD8A00CABFAB /* Home.storyboard in Resources */,
 				126A8C702494901900C80B5D /* GoogleService-Info.plist in Resources */,
 				123E533824A1669800A15B53 /* EasyTrashClub.mp4 in Resources */,
 				12245C632491DF7A004561E0 /* Login.storyboard in Resources */,
@@ -530,8 +540,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				12245C662491E2C3004561E0 /* LogInViewController.swift in Sources */,
+				12D2EC4624A1C4900010DAE4 /* LogInViewContainerView.swift in Sources */,
 				12245C252491D1BC004561E0 /* AppDelegate.swift in Sources */,
 				12245C5F2491DABF004561E0 /* OpeningViewController.swift in Sources */,
+				12D2EC4824A1C4A50010DAE4 /* CreateAnAccountContainerView.swift in Sources */,
 				12245C272491D1BC004561E0 /* SceneDelegate.swift in Sources */,
 				123D61BC249DCBEB00CABFAB /* HomeViewController.swift in Sources */,
 			);
