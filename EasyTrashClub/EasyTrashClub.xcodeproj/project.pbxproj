@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,16 +17,9 @@
 		12245C5F2491DABF004561E0 /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12245C5E2491DABF004561E0 /* OpeningViewController.swift */; };
 		12245C632491DF7A004561E0 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12245C622491DF7A004561E0 /* Login.storyboard */; };
 		12245C662491E2C3004561E0 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12245C652491E2C3004561E0 /* LogInViewController.swift */; };
-		122CDE452492BD03009CA994 /* UserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE442492BD03009CA994 /* UserNameViewController.swift */; };
-		122CDE472492BD10009CA994 /* UserLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE462492BD10009CA994 /* UserLocationViewController.swift */; };
-		122CDE4C2492C6AA009CA994 /* UserEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE4B2492C6AA009CA994 /* UserEmailViewController.swift */; };
-		122CDE4E2492C6B6009CA994 /* UserPhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE4D2492C6B6009CA994 /* UserPhoneNumberViewController.swift */; };
-		122CDE502492C6CD009CA994 /* UserProfileImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE4F2492C6CD009CA994 /* UserProfileImageViewController.swift */; };
-		122CDE522492C6DD009CA994 /* UserPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CDE512492C6DD009CA994 /* UserPasswordViewController.swift */; };
 		123D61B4249DAD8A00CABFAB /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123D61B3249DAD8A00CABFAB /* Home.storyboard */; };
 		123D61BC249DCBEB00CABFAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123D61BB249DCBEB00CABFAB /* HomeViewController.swift */; };
-		123E3A052492B73D00953F67 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123E3A042492B73D00953F67 /* Registration.storyboard */; };
-		1257C6AF2496F75500E4EC91 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257C6AE2496F75500E4EC91 /* Menu.swift */; };
+		123E533824A1669800A15B53 /* EasyTrashClub.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 123E533724A1669800A15B53 /* EasyTrashClub.mp4 */; };
 		126A8C702494901900C80B5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 126A8C6F2494901900C80B5D /* GoogleService-Info.plist */; };
 		1EE4FE081A66419B8AE83F14 /* Pods_EasyTrashClub_EasyTrashClubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95D8378B3C35496D1A90011 /* Pods_EasyTrashClub_EasyTrashClubUITests.framework */; };
 		6192696C2E8793DD394901A9 /* Pods_EasyTrashClubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7775A2826FEF3AEEDE6DDC /* Pods_EasyTrashClubTests.framework */; };
@@ -69,16 +62,9 @@
 		12245C5E2491DABF004561E0 /* OpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
 		12245C622491DF7A004561E0 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		12245C652491E2C3004561E0 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
-		122CDE442492BD03009CA994 /* UserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameViewController.swift; sourceTree = "<group>"; };
-		122CDE462492BD10009CA994 /* UserLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationViewController.swift; sourceTree = "<group>"; };
-		122CDE4B2492C6AA009CA994 /* UserEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEmailViewController.swift; sourceTree = "<group>"; };
-		122CDE4D2492C6B6009CA994 /* UserPhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhoneNumberViewController.swift; sourceTree = "<group>"; };
-		122CDE4F2492C6CD009CA994 /* UserProfileImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileImageViewController.swift; sourceTree = "<group>"; };
-		122CDE512492C6DD009CA994 /* UserPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPasswordViewController.swift; sourceTree = "<group>"; };
 		123D61B3249DAD8A00CABFAB /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		123D61BB249DCBEB00CABFAB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		123E3A042492B73D00953F67 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
-		1257C6AE2496F75500E4EC91 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		123E533724A1669800A15B53 /* EasyTrashClub.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = EasyTrashClub.mp4; path = ../../../../EasyTrashClubProperties/EasyTrashClub.mp4; sourceTree = "<group>"; };
 		126A8C6F2494901900C80B5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		13D731842573063D63BE3BCE /* Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig"; sourceTree = "<group>"; };
 		34C559AC90EDC836F470DAFD /* Pods-EasyTrashClubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClubTests.debug.xcconfig"; path = "Target Support Files/Pods-EasyTrashClubTests/Pods-EasyTrashClubTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -180,7 +166,6 @@
 		12245C552491D704004561E0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1257C6B02496F75A00E4EC91 /* New Group */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,9 +213,7 @@
 		12245C5A2491D90E004561E0 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				128105332493254300390BCF /* Menu */,
 				122CDE482492C583009CA994 /* Home */,
-				123E3A032492B72D00953F67 /* Registration */,
 				12245C5B2491D91F004561E0 /* Opening */,
 				12245C5C2491D938004561E0 /* Launch */,
 				12245C602491DE81004561E0 /* Login */,
@@ -281,12 +264,6 @@
 		122CDE432492BCE3009CA994 /* Registration */ = {
 			isa = PBXGroup;
 			children = (
-				122CDE442492BD03009CA994 /* UserNameViewController.swift */,
-				122CDE462492BD10009CA994 /* UserLocationViewController.swift */,
-				122CDE4B2492C6AA009CA994 /* UserEmailViewController.swift */,
-				122CDE4D2492C6B6009CA994 /* UserPhoneNumberViewController.swift */,
-				122CDE4F2492C6CD009CA994 /* UserProfileImageViewController.swift */,
-				122CDE512492C6DD009CA994 /* UserPasswordViewController.swift */,
 			);
 			path = Registration;
 			sourceTree = "<group>";
@@ -314,32 +291,10 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
-		123E3A032492B72D00953F67 /* Registration */ = {
-			isa = PBXGroup;
-			children = (
-				123E3A042492B73D00953F67 /* Registration.storyboard */,
-			);
-			path = Registration;
-			sourceTree = "<group>";
-		};
-		1257C6B02496F75A00E4EC91 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				1257C6AE2496F75500E4EC91 /* Menu.swift */,
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		128105332493254300390BCF /* Menu */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Menu;
-			sourceTree = "<group>";
-		};
 		12BC6AAC2494B0B70037E143 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
+				123E533724A1669800A15B53 /* EasyTrashClub.mp4 */,
 			);
 			path = Videos;
 			sourceTree = "<group>";
@@ -378,7 +333,6 @@
 				12245C1D2491D1BC004561E0 /* Sources */,
 				12245C1E2491D1BC004561E0 /* Frameworks */,
 				12245C1F2491D1BC004561E0 /* Resources */,
-				7D3B6FAD6FCC8F1AFF413DF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -416,7 +370,6 @@
 				12245C3E2491D1C7004561E0 /* Sources */,
 				12245C3F2491D1C7004561E0 /* Frameworks */,
 				12245C402491D1C7004561E0 /* Resources */,
-				B27601D6F6EC625AF9302379 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -478,11 +431,11 @@
 			files = (
 				123D61B4249DAD8A00CABFAB /* Home.storyboard in Resources */,
 				126A8C702494901900C80B5D /* GoogleService-Info.plist in Resources */,
+				123E533824A1669800A15B53 /* EasyTrashClub.mp4 in Resources */,
 				12245C632491DF7A004561E0 /* Login.storyboard in Resources */,
 				12245C312491D1C6004561E0 /* LaunchScreen.storyboard in Resources */,
 				12245C2E2491D1C6004561E0 /* Assets.xcassets in Resources */,
 				12245C2C2491D1BC004561E0 /* Main.storyboard in Resources */,
-				123E3A052492B73D00953F67 /* Registration.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,23 +456,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7D3B6FAD6FCC8F1AFF413DF4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub/Pods-EasyTrashClub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub/Pods-EasyTrashClub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub/Pods-EasyTrashClub-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9B06BCAA383268D8CFDB6A4B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -540,23 +476,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B27601D6F6EC625AF9302379 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B82C602D8DC2E7DA44DE527D /* [CP] Check Pods Manifest.lock */ = {
@@ -612,15 +531,8 @@
 			files = (
 				12245C662491E2C3004561E0 /* LogInViewController.swift in Sources */,
 				12245C252491D1BC004561E0 /* AppDelegate.swift in Sources */,
-				122CDE472492BD10009CA994 /* UserLocationViewController.swift in Sources */,
 				12245C5F2491DABF004561E0 /* OpeningViewController.swift in Sources */,
 				12245C272491D1BC004561E0 /* SceneDelegate.swift in Sources */,
-				1257C6AF2496F75500E4EC91 /* Menu.swift in Sources */,
-				122CDE452492BD03009CA994 /* UserNameViewController.swift in Sources */,
-				122CDE4C2492C6AA009CA994 /* UserEmailViewController.swift in Sources */,
-				122CDE4E2492C6B6009CA994 /* UserPhoneNumberViewController.swift in Sources */,
-				122CDE522492C6DD009CA994 /* UserPasswordViewController.swift in Sources */,
-				122CDE502492C6CD009CA994 /* UserProfileImageViewController.swift in Sources */,
 				123D61BC249DCBEB00CABFAB /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

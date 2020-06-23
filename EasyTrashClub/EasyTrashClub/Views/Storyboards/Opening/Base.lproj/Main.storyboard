@@ -26,7 +26,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gAB-0q-qHj">
-                                <rect key="frame" x="20" y="754" width="374" height="108"/>
+                                <rect key="frame" x="20" y="812" width="374" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ta4-Wn-dG0">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
@@ -39,20 +39,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="JD3-bk-Yy8" kind="presentation" identifier="ToRegistrationViewController" modalPresentationStyle="fullScreen" id="hYt-oC-H1v"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mN-6A-KBg">
-                                        <rect key="frame" x="0.0" y="58" width="374" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="A3w-87-cBA"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
-                                        <state key="normal" title="LOG IN">
-                                            <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="IUQ-5s-ePZ" kind="presentation" identifier="ToLoginViewController" modalPresentationStyle="fullScreen" id="RDJ-nz-3dv"/>
+                                            <segue destination="cbF-DQ-7XP" kind="presentation" identifier="ToLogInViewController" id="gML-2i-44i"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -75,30 +62,19 @@
                     </view>
                     <connections>
                         <outlet property="getStartedButton" destination="Ta4-Wn-dG0" id="9qk-8D-ba5"/>
-                        <outlet property="logInButton" destination="9mN-6A-KBg" id="8t0-dz-57u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
         </scene>
-        <!--RegistrationViewController-->
-        <scene sceneID="Fje-OA-Vza">
+        <!--Storyboard Reference-->
+        <scene sceneID="76H-8L-36h">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="RegistrationViewController" storyboardName="Registration" referencedIdentifier="RegistrationViewController" id="JD3-bk-Yy8" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="foR-oO-hVn"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QOj-j6-MMd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder id="cbF-DQ-7XP" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YB4-1f-C5o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-101" y="529"/>
-        </scene>
-        <!--LoginViewController-->
-        <scene sceneID="AwW-8R-0GP">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="LoginViewController" storyboardName="Login" referencedIdentifier="LoginViewController" id="IUQ-5s-ePZ" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GD7-eP-t85" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="320" y="528"/>
+            <point key="canvasLocation" x="138" y="546"/>
         </scene>
     </scenes>
 </document>
