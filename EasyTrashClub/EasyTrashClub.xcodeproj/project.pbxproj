@@ -197,9 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				12593E8E24A1BF7F00897B4B /* ContainerViews */,
-				123D61B0249DA92D00CABFAB /* Menu */,
 				123D61AB249DA8BD00CABFAB /* Home */,
-				122CDE432492BCE3009CA994 /* Registration */,
 				12245C642491E2AD004561E0 /* Login */,
 				12245C5D2491DAA4004561E0 /* Opening */,
 			);
@@ -216,7 +214,6 @@
 		12245C5A2491D90E004561E0 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				122CDE482492C583009CA994 /* Home */,
 				12245C5B2491D91F004561E0 /* Opening */,
 				12245C5C2491D938004561E0 /* Launch */,
 				12245C602491DE81004561E0 /* Login */,
@@ -264,33 +261,12 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		122CDE432492BCE3009CA994 /* Registration */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Registration;
-			sourceTree = "<group>";
-		};
-		122CDE482492C583009CA994 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
 		123D61AB249DA8BD00CABFAB /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				123D61BB249DCBEB00CABFAB /* HomeViewController.swift */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		123D61B0249DA92D00CABFAB /* Menu */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Menu;
 			sourceTree = "<group>";
 		};
 		12593E8E24A1BF7F00897B4B /* ContainerViews */ = {

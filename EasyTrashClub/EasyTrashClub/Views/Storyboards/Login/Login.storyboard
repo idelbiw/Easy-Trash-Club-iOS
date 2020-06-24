@@ -115,7 +115,6 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0BT-gn-XDV">
                                         <rect key="frame" x="8" y="0.0" width="382" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="HP9-aS-Ek9"/>
                                             <constraint firstAttribute="height" constant="50" id="Lul-Fj-NZD"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -185,9 +184,9 @@
                         <viewLayoutGuide key="safeArea" id="PHT-jd-44n"/>
                     </view>
                     <connections>
-                        <outlet property="confirmUsernameTextField" destination="sU6-z6-Dfg" id="WdT-fL-Kj4"/>
-                        <outlet property="passwordTextField" destination="olf-Xt-xoE" id="5Wh-Q5-Nj1"/>
-                        <outlet property="userNameTextField" destination="0BT-gn-XDV" id="ANC-Jg-MIM"/>
+                        <outlet property="confirmPasswordTextField" destination="sU6-z6-Dfg" id="Zxz-Bm-lPp"/>
+                        <outlet property="passwordTextField" destination="olf-Xt-xoE" id="RqF-MO-M1J"/>
+                        <outlet property="usernameTextField" destination="0BT-gn-XDV" id="bCW-1l-haW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="saW-se-ogb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
