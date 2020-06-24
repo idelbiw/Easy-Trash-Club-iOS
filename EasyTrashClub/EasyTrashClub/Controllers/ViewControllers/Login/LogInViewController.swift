@@ -10,54 +10,52 @@ import UIKit
 
 @IBDesignable
 class LogInViewController: UIViewController {
-
-    @IBOutlet weak var usernameTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
+    
+    //MARK: - IBOutlets
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    @IBOutlet weak var loginContainerView: UIView!
+    @IBOutlet weak var createAnAccountContainerView: UIView!
     @IBOutlet weak var loginButton: UIButton!
-    @IBOutlet weak var alreadyHaveAnAccountButton: UIButton!
-    @IBOutlet weak var appleLoginButton: UIButton!
-    @IBOutlet weak var facebookLoginButton: UIButton!
-    @IBOutlet weak var googleLoginButton: UIButton!
+    
+    var isHidden: Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureLoginButtons()
+        configureLoginButton()
     }
     
-    //MARK: - Helper Functions
+    //MARK: - Helper Methods
     
-    func configureLoginButtons() {
+    func createAnAccount() {
+        
+    }
+    
+    func logIn() {
+        
+    }
+
+    func configureLoginButton() {
         loginButton.layer.cornerRadius = loginButton.frame.size.height / 2
-        
-        appleLoginButton.layer.cornerRadius = appleLoginButton.frame.size.height / 2
-        appleLoginButton.layer.borderWidth = 1
-        appleLoginButton.layer.borderColor = UIColor.white.cgColor
-        
-        facebookLoginButton.layer.cornerRadius = facebookLoginButton.frame.size.height / 2
-        
-        googleLoginButton.layer.cornerRadius = googleLoginButton.frame.size.height / 2
     }
     
     //MARK: - Action Functions
     
-    @IBAction func logInButtonTapped(_ sender: UIButton) {
+    @IBAction func didChangeSegmentedValue(_ sender: UISegmentedControl) {
+        if sender.selectedSegmentIndex == 0 {
+            createAnAccountContainerView.alpha = 1
+            loginContainerView.alpha = 0
+        } else {
+            createAnAccountContainerView.alpha = 0
+            loginContainerView.alpha = 1
+        }
+    }
+    
+    
+    @IBAction func loginButtonTapped(_ sender: UIButton) {
         
     }
     
-    @IBAction func alreadHaveAnAccountButtonTapped(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
-    }
     
-    @IBAction func appleLoginButtonTapped(_ sender: UIButton) {
-        
-    }
     
-    @IBAction func facebookLoginButtonTapped(_ sender: UIButton) {
-        
-    }
-    
-    @IBAction func googleLoginButtonTapped(_ sender: UIButton) {
-        
-    }
     
 }

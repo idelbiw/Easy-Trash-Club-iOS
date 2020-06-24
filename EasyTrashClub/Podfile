@@ -5,8 +5,6 @@ target 'EasyTrashClub' do
   use_frameworks!
 
   # Pods for EasyTrashClub
-  
-  pod 'Alamofire', '~> 5.2'
 
   target 'EasyTrashClubTests' do
     inherit! :search_paths
