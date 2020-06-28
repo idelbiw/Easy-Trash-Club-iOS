@@ -10,27 +10,20 @@ import UIKit
 
 class UserProfileImageViewController: UIViewController {
 
-    //MARK: -IBOutlets
+    //MARK: - IBOutlets -
+    
     @IBOutlet weak var userProfileImage: UIImageView!
-    @IBOutlet weak var userProfileImageNextButton: UIButton!
+    @IBOutlet weak var nextButton: UIButton!
     
-    
+    //MARK: - IBActions and Methods -
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configureNextButton()
     }
     
-    //MARK: - Helper Functions
-    
     func configureNextButton() {
-        userProfileImageNextButton.layer.cornerRadius = userProfileImageNextButton.frame.size.height / 2
+        nextButton.layer.cornerRadius = nextButton.frame.size.height / 2
     }
     
-
-    //MARK: - Action Functions
-    @IBAction func userProfileImageNextButtonTapped(_ sender: UIButton) {
-        
-    }
-    
-}
+} //End of class

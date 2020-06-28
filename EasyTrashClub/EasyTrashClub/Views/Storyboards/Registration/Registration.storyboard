@@ -499,8 +499,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="Ds0-vX-xvQ"/>
                     <connections>
+                        <outlet property="nextButton" destination="KQ3-Kw-9q9" id="eAg-Wf-dr9"/>
                         <outlet property="userPhoneNumberTextField" destination="Lpb-O6-Dnn" id="XLt-Cn-bwN"/>
-                        <outlet property="userPhoneNumbernextButton" destination="KQ3-Kw-9q9" id="eAg-Wf-dr9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="huc-c8-ZDL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -524,7 +524,7 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Lcp-4y-gtw">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plus.rectangle.fill.on.rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Lcp-4y-gtw">
                                         <rect key="frame" x="124" y="80" width="150" height="150"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="150" id="DLQ-B4-npB"/>
@@ -555,6 +555,7 @@
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="HNu-JE-7Dd" firstAttribute="leading" secondItem="N0d-KT-588" secondAttribute="leading" constant="8" id="DaP-1E-BCq"/>
                             <constraint firstItem="HNu-JE-7Dd" firstAttribute="centerX" secondItem="N0d-KT-588" secondAttribute="centerX" id="sE1-hu-MSP"/>
@@ -565,8 +566,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="xnp-D8-BwK"/>
                     <connections>
+                        <outlet property="nextButton" destination="0ns-xI-NhA" id="rn1-lO-4Ex"/>
                         <outlet property="userProfileImage" destination="Lcp-4y-gtw" id="rdp-fw-HEA"/>
-                        <outlet property="userProfileImageNextButton" destination="0ns-xI-NhA" id="rn1-lO-4Ex"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qG5-Er-CwI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -675,8 +676,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="gEa-Qx-leD"/>
                     <connections>
+                        <outlet property="nextButton" destination="LTP-UC-Zwh" id="h94-df-SBZ"/>
                         <outlet property="userConfirmPasswordTextField" destination="SLk-Ws-JSq" id="LfN-oS-yLG"/>
-                        <outlet property="userPasswordNextButton" destination="LTP-UC-Zwh" id="h94-df-SBZ"/>
                         <outlet property="userPasswordTextField" destination="Psi-pF-8zO" id="zIL-15-IGM"/>
                     </connections>
                 </viewController>
@@ -693,4 +694,7 @@
             <point key="canvasLocation" x="4818" y="110"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="plus.rectangle.fill.on.rectangle.fill" catalog="system" width="128" height="98"/>
+    </resources>
 </document>

@@ -10,20 +10,21 @@ import UIKit
 
 class UserPasswordViewController: UIViewController {
 
-    //MARK: -IBOutlets
+    //MARK: - IBOutlets -
+    
     @IBOutlet weak var userPasswordTextField: UITextField!
     @IBOutlet weak var userConfirmPasswordTextField: UITextField!
-    @IBOutlet weak var userPasswordNextButton: UIButton!
+    @IBOutlet weak var nextButton: UIButton!
+    
+    //MARK: - IBActions and Mehtods -
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configureNextButton()
     }
     
-    //MARK: - Helper Functions
-    
     func configureNextButton() {
-        userPasswordNextButton.layer.cornerRadius = userPasswordNextButton.frame.size.height / 2
+        nextButton.layer.cornerRadius = nextButton.frame.size.height / 2
     }
     
     //MARK: - Action Functions

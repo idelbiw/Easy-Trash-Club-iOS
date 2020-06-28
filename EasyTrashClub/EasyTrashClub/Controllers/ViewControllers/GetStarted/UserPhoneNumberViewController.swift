@@ -10,28 +10,20 @@ import UIKit
 
 class UserPhoneNumberViewController: UIViewController {
 
-    //MARK: -IBOutlets
+    //MARK: -IBOutlets -
+    
     @IBOutlet weak var userPhoneNumberTextField: UITextField!
-    @IBOutlet weak var userPhoneNumbernextButton: UIButton!
+    @IBOutlet weak var nextButton: UIButton!
+
+    //MARK: - Methods -
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configureNextButton()
     }
     
-    //MARK: - Helper Functions
     func configureNextButton() {
-        userPhoneNumbernextButton.layer.cornerRadius = userPhoneNumbernextButton.frame.size.height / 2
+        nextButton.layer.cornerRadius = nextButton.frame.size.height / 2
     }
     
-    //MARK: - Action Functions
-    
-    @IBAction func userPhoneNumberTextFieldEdited(_ sender: UITextField) {
-        
-        
-    }
-    
-    @IBAction func userPhoneNumberNextButtonTapped(_ sender: UIButton) {
-        
-    }
-}
+} //End of class

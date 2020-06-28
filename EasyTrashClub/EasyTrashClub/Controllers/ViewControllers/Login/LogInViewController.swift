@@ -19,14 +19,15 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var facebookLoginButton: UIButton!
     @IBOutlet weak var googleLoginButton: UIButton!
     
+    //MARK: - IBActions and Methods
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureLoginButtons()
     }
     
-    //MARK: - Helper Functions
-    
     func configureLoginButtons() {
+        
         loginButton.layer.cornerRadius = loginButton.frame.size.height / 2
         
         appleLoginButton.layer.cornerRadius = appleLoginButton.frame.size.height / 2
@@ -36,18 +37,6 @@ class LogInViewController: UIViewController {
         facebookLoginButton.layer.cornerRadius = facebookLoginButton.frame.size.height / 2
         
         googleLoginButton.layer.cornerRadius = googleLoginButton.frame.size.height / 2
-    }
-    
-    
-    
-    
-    //MARK: - Action Functions
-    
-    @IBAction func usernameTextFieldEdited(_ sender: UITextField) {
-        
-    }
-    
-    @IBAction func passwordTextFieldEdited(_ sender: UITextField) {
         
     }
     
@@ -71,4 +60,4 @@ class LogInViewController: UIViewController {
         
     }
     
-}
+} //End of class

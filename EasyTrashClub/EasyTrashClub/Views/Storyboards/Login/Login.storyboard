@@ -97,6 +97,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RrN-Oh-Okm">
                                         <rect key="frame" x="0.0" y="0.0" width="398" height="50"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="VGL-CT-Taj"/>
                                         </constraints>
@@ -156,6 +157,7 @@
                         <outlet property="facebookLoginButton" destination="04M-sy-i1S" id="gKe-OG-EAD"/>
                         <outlet property="googleLoginButton" destination="8ig-Jr-zmA" id="u7x-ut-rgn"/>
                         <outlet property="loginButton" destination="Lfu-e1-Oir" id="Bu0-DC-yO9"/>
+                        <outlet property="passwordTextField" destination="noM-Rf-hVN" id="MZO-ad-B43"/>
                         <outlet property="usernameTextField" destination="7sW-SS-8AD" id="zzf-6y-WdE"/>
                     </connections>
                 </viewController>
