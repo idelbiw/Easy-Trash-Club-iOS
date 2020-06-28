@@ -10,25 +10,33 @@ import UIKit
 
 class MenuTableViewController: UIViewController {
     
+    //MARK: - IBOutlets and Properties -
     
     @IBOutlet weak var menuTableViewController: UITableView!
     
     let menuCellIdentifier = "menuMainChoicesCell"
     var menuController = MenuController()
     
+    //MARK: - Methods -
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         menuTableViewController.dataSource = self
         menuTableViewController.delegate = self
     }
-}
+    
+} //End of class
+
+//MARK: - Extensions -
 
 extension MenuTableViewController: UITableViewDelegate {
     
 }
 
-// MARK: - Table view data source
+// MARK:  Table view data source
+
 extension MenuTableViewController: UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return menuController.menuItems.count
     }
@@ -39,6 +47,5 @@ extension MenuTableViewController: UITableViewDataSource {
         cell.textLabel?.text = mainMenuCell.title
         return cell
     }
-    
     
 }

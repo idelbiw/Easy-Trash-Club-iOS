@@ -10,21 +10,21 @@ import UIKit
 
 class UserEmailViewController: UIViewController {
     
-    //MARK: -IBOutlets
+    //MARK: - IBOutlets -
+    
     @IBOutlet weak var userEmailTextField: UITextField!
-    @IBOutlet weak var userEmailNextButton: UIButton!
+    @IBOutlet weak var nextButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configureNextButton()
     }
     
-    //MARK: - Helper Functions
+    //MARK: - Helper Functions -
     
     func configureNextButton() {
-        userEmailNextButton.layer.cornerRadius = userEmailNextButton.frame.size.height / 2
+        nextButton.layer.cornerRadius = nextButton.frame.size.height / 2
     }
-    
     
     //MARK: - Action Functions
     @IBAction func userEmailTextFieldEdited(_ sender: UITextField) {

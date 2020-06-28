@@ -10,26 +10,27 @@ import UIKit
 
 class UserNameViewController: UIViewController {
 
-    //MARK: - IBOutlets
+    //MARK: - IBOutlets -
+    
     @IBOutlet weak var userFirstNameTextField: UITextField!
     @IBOutlet weak var userLastNameTextField: UITextField!
-    @IBOutlet weak var usernameNextButton: UIButton!
+    @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var appleLogInButton: UIButton!
     @IBOutlet weak var facebookLogInButton: UIButton!
     @IBOutlet weak var googleLogInButton: UIButton!
     
-    
-    
+    //MARK: - IBActions and Methods -
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        configureNextButton()
+        configureButtons()
+        
     }
     
-    //MARK: - Helper Functions
-    
-    func configureNextButton() {
-        usernameNextButton.layer.cornerRadius = usernameNextButton.frame.size.height / 2
+    func configureButtons() {
+        
+        nextButton.layer.cornerRadius = nextButton.frame.size.height / 2
         
         appleLogInButton.layer.cornerRadius = appleLogInButton.frame.size.height / 2
         appleLogInButton.layer.borderWidth = 1
@@ -41,18 +42,6 @@ class UserNameViewController: UIViewController {
         googleLogInButton.layer.borderWidth = 1
         googleLogInButton.layer.borderColor = #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)
 
-    }
-    
-    
-    
-    
-    //MARK: - Action Functions
-    @IBAction func userFirstNameTextFieldEdited(_ sender: UITextField) {
-        
-    }
-    
-    @IBAction func userLastNameTextFieldEdited(_ sender: UITextField) {
-        
     }
     
     @IBAction func usernameNextButtonTapped(_ sender: UIButton) {
@@ -74,4 +63,4 @@ class UserNameViewController: UIViewController {
     @IBAction func googleLogInButtonTapped(_ sender: UIButton) {
         
     }
-}
+} //End of class

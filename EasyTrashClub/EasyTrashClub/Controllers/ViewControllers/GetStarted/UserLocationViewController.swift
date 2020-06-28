@@ -11,43 +11,24 @@ import UIKit
 class UserLocationViewController: UIViewController {
     
     
-    //MARK: -IBOutlets
-    @IBOutlet weak var userFirstNameLabel: UILabel!
+    //MARK: - IBOutlets -
+    
+    @IBOutlet weak var greetingLabel: UILabel!
     @IBOutlet weak var userAddressTextField: UITextField!
     @IBOutlet weak var userCityTextField: UITextField!
     @IBOutlet weak var userStatePickerView: UIPickerView!
     @IBOutlet weak var userZipCodeTextField: UITextField!
-    @IBOutlet weak var userLocationNextButton: UIButton!
+    @IBOutlet weak var nextButton: UIButton!
+    
+    //MARK: - IBActions and Methods -
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configureNextButton()
     }
     
-    //MARK: - Helper Functions
-    
     func configureNextButton() {
-        userLocationNextButton.layer.cornerRadius = userLocationNextButton.frame.size.height / 2
+        nextButton.layer.cornerRadius = nextButton.frame.size.height / 2
     }
     
-    
-    //MARK: - Action Functions
-    @IBAction func userAddressTextFieldEdited(_ sender: UITextField) {
-        
-    }
-    
-    @IBAction func userCityTextFieldEdited(_ sender: UITextField) {
-        
-    }
-    
-    @IBOutlet weak var userStatePickerViewEdited: UIPickerView!
-    
-    @IBAction func userZipCodeTextFieldEdited(_ sender: UITextField) {
-        
-    }
-    
-    @IBAction func userLocationNextButtonTapped(_ sender: UIButton) {
-        
-    }
-    
-}
+} //End of class

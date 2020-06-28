@@ -82,6 +82,9 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="userFirstNameTextFieldEdited:" destination="22i-O1-PB1" eventType="editingDidEnd" id="LJB-gJ-gRR"/>
+                                        </connections>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5W6-hJ-b5E">
                                         <rect key="frame" x="8" y="149" width="382" height="1"/>
@@ -97,6 +100,9 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="userLastNameTextFieldEdited:" destination="22i-O1-PB1" eventType="editingDidEnd" id="CK0-Sf-495"/>
+                                        </connections>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hFV-h9-s9M">
                                         <rect key="frame" x="8" y="218" width="382" height="1"/>
@@ -160,7 +166,9 @@
                         <outlet property="appleLogInButton" destination="qlJ-gD-wQh" id="kdS-ye-eGh"/>
                         <outlet property="facebookLogInButton" destination="ZaY-Xr-Qfi" id="nIG-QW-In4"/>
                         <outlet property="googleLogInButton" destination="13R-GP-Fc5" id="Rfg-IJ-myn"/>
-                        <outlet property="usernameNextButton" destination="aGJ-U0-oxT" id="P2d-PO-fdD"/>
+                        <outlet property="nextButton" destination="aGJ-U0-oxT" id="P2d-PO-fdD"/>
+                        <outlet property="userFirstNameTextField" destination="DZq-yk-PiZ" id="YWI-n7-yJC"/>
+                        <outlet property="userLastNameTextField" destination="YSy-MY-1v8" id="s9U-WG-95b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yhZ-bd-1Bp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -307,10 +315,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="4jm-JH-odh"/>
                     <connections>
-                        <outlet property="userFirstNameLabel" destination="P6a-8l-1i9" id="p6L-ux-kip"/>
-                        <outlet property="userLocationNextButton" destination="05X-je-DsZ" id="i8f-Pe-Z4E"/>
+                        <outlet property="greetingLabel" destination="P6a-8l-1i9" id="iND-hE-6FR"/>
+                        <outlet property="nextButton" destination="05X-je-DsZ" id="i8f-Pe-Z4E"/>
+                        <outlet property="userAddressTextField" destination="a9U-cx-RTN" id="XNt-XC-S0H"/>
+                        <outlet property="userCityTextField" destination="Nlk-kU-1kd" id="vLe-Iw-ued"/>
                         <outlet property="userStatePickerView" destination="dWQ-4x-Zij" id="ysx-LV-G1L"/>
-                        <outlet property="userStatePickerViewEdited" destination="dWQ-4x-Zij" id="X5U-Qt-tQF"/>
+                        <outlet property="userZipCodeTextField" destination="vwG-G5-UWA" id="uxE-QF-R4S"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9gT-Q7-NBk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -396,7 +406,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="soo-1T-Fhv"/>
                     <connections>
-                        <outlet property="userEmailNextButton" destination="uH4-Um-pkd" id="DGM-qB-iq3"/>
+                        <outlet property="nextButton" destination="uH4-Um-pkd" id="DGM-qB-iq3"/>
                         <outlet property="userEmailTextField" destination="kZS-yC-efY" id="3Dw-vd-6Vh"/>
                     </connections>
                 </viewController>

@@ -232,8 +232,8 @@
 		12245C5A2491D90E004561E0 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				128105332493254300390BCF /* Menu */,
 				122CDE482492C583009CA994 /* MainApp */,
+				128105332493254300390BCF /* Menu */,
 				123E3A032492B72D00953F67 /* Registration */,
 				12245C5B2491D91F004561E0 /* Opening */,
 				12245C5C2491D938004561E0 /* Launch */,
@@ -797,7 +797,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R6MQNLHPL;
-				INFOPLIST_FILE = "/Users/lambda_school_loaner_226/Desktop/Projects/EasyTrashClub/Easy-Trash-Club-iOS/EasyTrashClub/EasyTrashClub/Resources/Info.plist";
+				INFOPLIST_FILE = "/Users/waseemidelbi/iOS Work/Easy-Trash-Club-iOS/EasyTrashClub/EasyTrashClub/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -817,7 +817,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R6MQNLHPL;
-				INFOPLIST_FILE = "/Users/lambda_school_loaner_226/Desktop/Projects/EasyTrashClub/Easy-Trash-Club-iOS/EasyTrashClub/EasyTrashClub/Resources/Info.plist";
+				INFOPLIST_FILE = "/Users/waseemidelbi/iOS Work/Easy-Trash-Club-iOS/EasyTrashClub/EasyTrashClub/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
