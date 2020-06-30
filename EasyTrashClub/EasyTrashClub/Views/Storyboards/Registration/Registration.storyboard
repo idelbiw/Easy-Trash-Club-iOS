@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="22i-O1-PB1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ttO-8n-qdr">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -10,7 +10,7 @@
         <!--User Name View Controller-->
         <scene sceneID="v24-N8-746">
             <objects>
-                <viewController storyboardIdentifier="RegistrationStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="22i-O1-PB1" customClass="UserNameViewController" customModule="EasyTrashClub" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="22i-O1-PB1" customClass="UserNameViewController" customModule="EasyTrashClub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="thk-rZ-bWq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -63,13 +63,13 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="36L-X5-aU4" userLabel="NameStackView">
                                 <rect key="frame" x="8" y="188" width="398" height="317"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Awesome!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRq-FT-G5m">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Awesome!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRq-FT-G5m">
                                         <rect key="frame" x="124.5" y="0.0" width="149" height="36"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First, what is your name?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeG-Xc-snC">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="First, what is your name?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeG-Xc-snC">
                                         <rect key="frame" x="19.5" y="45" width="359" height="36"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -82,9 +82,6 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <action selector="userFirstNameTextFieldEdited:" destination="22i-O1-PB1" eventType="editingDidEnd" id="LJB-gJ-gRR"/>
-                                        </connections>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5W6-hJ-b5E">
                                         <rect key="frame" x="8" y="149" width="382" height="1"/>
@@ -100,9 +97,6 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <action selector="userLastNameTextFieldEdited:" destination="22i-O1-PB1" eventType="editingDidEnd" id="CK0-Sf-495"/>
-                                        </connections>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hFV-h9-s9M">
                                         <rect key="frame" x="8" y="218" width="382" height="1"/>
@@ -123,7 +117,7 @@
                                         </state>
                                         <connections>
                                             <action selector="usernameNextButtonTapped:" destination="22i-O1-PB1" eventType="touchUpInside" id="9Qq-t4-6eh"/>
-                                            <segue destination="Sxe-Sy-oLk" kind="presentation" identifier="ToUserLocationViewController" modalPresentationStyle="fullScreen" id="AOZ-O9-RLb"/>
+                                            <segue destination="Sxe-Sy-oLk" kind="show" identifier="ToUserLocationViewController" id="AOZ-O9-RLb"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOS-YH-tm9">
@@ -154,7 +148,7 @@
                         <constraints>
                             <constraint firstItem="17I-06-M1X" firstAttribute="bottom" secondItem="1Dr-iR-QAu" secondAttribute="bottom" constant="20" id="6Ma-kl-rX9"/>
                             <constraint firstItem="17I-06-M1X" firstAttribute="trailing" secondItem="36L-X5-aU4" secondAttribute="trailing" constant="8" id="Dlb-uX-IXa"/>
-                            <constraint firstItem="36L-X5-aU4" firstAttribute="top" secondItem="17I-06-M1X" secondAttribute="top" constant="144" id="FNb-1E-4mt"/>
+                            <constraint firstItem="36L-X5-aU4" firstAttribute="top" relation="lessThanOrEqual" secondItem="17I-06-M1X" secondAttribute="top" constant="144" id="FNb-1E-4mt"/>
                             <constraint firstItem="17I-06-M1X" firstAttribute="trailing" secondItem="1Dr-iR-QAu" secondAttribute="trailing" constant="8" id="b5E-uM-GUh"/>
                             <constraint firstItem="1Dr-iR-QAu" firstAttribute="top" secondItem="36L-X5-aU4" secondAttribute="bottom" constant="171" id="chm-6j-Ogk"/>
                             <constraint firstItem="1Dr-iR-QAu" firstAttribute="leading" secondItem="17I-06-M1X" secondAttribute="leading" constant="8" id="keu-Hn-p75"/>
@@ -162,6 +156,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="17I-06-M1X"/>
                     </view>
+                    <navigationItem key="navigationItem" id="KZG-8r-b6e"/>
                     <connections>
                         <outlet property="appleLogInButton" destination="qlJ-gD-wQh" id="kdS-ye-eGh"/>
                         <outlet property="facebookLogInButton" destination="ZaY-Xr-Qfi" id="nIG-QW-In4"/>
@@ -173,7 +168,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yhZ-bd-1Bp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="110"/>
+            <point key="canvasLocation" x="1047.8260869565217" y="109.82142857142857"/>
         </scene>
         <!--User Location View Controller-->
         <scene sceneID="S49-mm-r1h">
@@ -184,7 +179,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi FIRSTNAMELABEL! We're glad you're here!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6a-8l-1i9">
-                                <rect key="frame" x="8" y="52" width="398" height="72"/>
+                                <rect key="frame" x="8" y="96" width="398" height="72"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -274,8 +269,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="userLocationNextButtonTapped:" destination="Sxe-Sy-oLk" eventType="touchUpInside" id="Vfp-9w-IFs"/>
-                                            <segue destination="Q1o-6r-l4E" kind="presentation" identifier="ToUserEmailViewController" modalPresentationStyle="fullScreen" id="rEw-cB-0KU"/>
+                                            <segue destination="Q1o-6r-l4E" kind="show" id="bv3-u2-aNX"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -308,7 +302,7 @@
                             <constraint firstAttribute="trailing" secondItem="W87-Es-zIw" secondAttribute="trailing" constant="8" id="hyP-4w-hzg"/>
                             <constraint firstItem="P6a-8l-1i9" firstAttribute="top" secondItem="17P-eQ-wbi" secondAttribute="top" constant="8" id="j8J-pq-7ky"/>
                             <constraint firstItem="P6a-8l-1i9" firstAttribute="leading" secondItem="17P-eQ-wbi" secondAttribute="leading" constant="8" id="nb1-tf-UWS"/>
-                            <constraint firstItem="W87-Es-zIw" firstAttribute="top" secondItem="P6a-8l-1i9" secondAttribute="bottom" constant="127" id="rRB-64-9XX"/>
+                            <constraint firstItem="W87-Es-zIw" firstAttribute="top" relation="lessThanOrEqual" secondItem="P6a-8l-1i9" secondAttribute="bottom" constant="127" id="rRB-64-9XX"/>
                             <constraint firstItem="17P-eQ-wbi" firstAttribute="bottom" secondItem="W87-Es-zIw" secondAttribute="bottom" constant="83.5" id="xlT-dW-8az"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="17P-eQ-wbi"/>
@@ -325,7 +319,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9gT-Q7-NBk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="946" y="110"/>
+            <point key="canvasLocation" x="1855.072463768116" y="109.82142857142857"/>
         </scene>
         <!--User Email View Controller-->
         <scene sceneID="r2u-Ow-Mzk">
@@ -358,9 +352,6 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
-                                        <connections>
-                                            <action selector="userEmailTextFieldEdited:" destination="Q1o-6r-l4E" eventType="editingDidEnd" id="JJu-nh-d0i"/>
-                                        </connections>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V73-Cb-VGf">
                                         <rect key="frame" x="8" y="182" width="382" height="1"/>
@@ -380,8 +371,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="userEmailNextButtonTapped:" destination="Q1o-6r-l4E" eventType="touchUpInside" id="pDm-CV-Tn3"/>
-                                            <segue destination="2Gb-80-f4J" kind="presentation" identifier="ToUserPhoneNumberViewController" modalPresentationStyle="fullScreen" id="R7b-kb-ozH"/>
+                                            <segue destination="2Gb-80-f4J" kind="show" identifier="ToUserPhoneNumberViewController" id="R7b-kb-ozH"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -412,7 +402,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n2q-Vf-EQ7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1743" y="110"/>
+            <point key="canvasLocation" x="2652.1739130434785" y="109.82142857142857"/>
         </scene>
         <!--User Phone Number View Controller-->
         <scene sceneID="KgL-Au-W22">
@@ -451,9 +441,6 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
-                                        <connections>
-                                            <action selector="userPhoneNumberTextFieldEdited:" destination="2Gb-80-f4J" eventType="editingDidEnd" id="utp-cm-EhT"/>
-                                        </connections>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uAf-Nx-XWN">
                                         <rect key="frame" x="8" y="259" width="382" height="1"/>
@@ -473,8 +460,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="userPhoneNumberNextButtonTapped:" destination="2Gb-80-f4J" eventType="touchUpInside" id="Qhs-Ip-ETI"/>
-                                            <segue destination="uln-sg-paX" kind="presentation" identifier="ToUserProfileImageViewController" modalPresentationStyle="fullScreen" id="UXI-zA-kXx"/>
+                                            <segue destination="uln-sg-paX" kind="show" identifier="ToUserProfileImageViewController" id="UXI-zA-kXx"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -505,7 +491,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="huc-c8-ZDL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2523" y="110"/>
+            <point key="canvasLocation" x="3431.884057971015" y="109.82142857142857"/>
         </scene>
         <!--User Profile Image View Controller-->
         <scene sceneID="rt0-34-OT5">
@@ -543,8 +529,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="userProfileImageNextButtonTapped:" destination="uln-sg-paX" eventType="touchUpInside" id="0Rx-WH-9Je"/>
-                                            <segue destination="drw-2d-5b2" kind="presentation" identifier="ToUserPasswordViewController" modalPresentationStyle="fullScreen" id="T1n-4S-9kO"/>
+                                            <segue destination="drw-2d-5b2" kind="show" identifier="ToUserPasswordViewController" id="T1n-4S-9kO"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -572,7 +557,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qG5-Er-CwI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3320" y="110"/>
+            <point key="canvasLocation" x="4228.985507246377" y="109.82142857142857"/>
         </scene>
         <!--User Password View Controller-->
         <scene sceneID="cX7-M4-TRM">
@@ -647,7 +632,7 @@
                                         </state>
                                         <connections>
                                             <action selector="userPasswordNextButtonTapped:" destination="drw-2d-5b2" eventType="touchUpInside" id="yst-BX-iUo"/>
-                                            <segue destination="VLh-4R-tLP" kind="presentation" identifier="ToMainAppStoryboard" modalPresentationStyle="fullScreen" id="gwx-2h-WGj"/>
+                                            <segue destination="VLh-4R-tLP" kind="presentation" identifier="ToMainAppStoryboard" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="gwx-2h-WGj"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -683,7 +668,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Fv-WS-mhc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4174" y="110"/>
+            <point key="canvasLocation" x="5084.057971014493" y="109.82142857142857"/>
         </scene>
         <!--MainAppStoryboard-->
         <scene sceneID="k2m-CO-nvu">
@@ -691,7 +676,26 @@
                 <viewControllerPlaceholder storyboardIdentifier="MainAppStoryboard" storyboardName="MainApp" referencedIdentifier="MainAppStoryboard" id="VLh-4R-tLP" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PD4-PS-etd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4818" y="110"/>
+            <point key="canvasLocation" x="5727.536231884058" y="109.82142857142857"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NDd-3G-zAC">
+            <objects>
+                <navigationController storyboardIdentifier="RegistrationStoryboard" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ttO-8n-qdr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IER-wh-bpr">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.18823686240000001" green="0.18823254110000001" blue="0.1882354319" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="22i-O1-PB1" kind="relationship" relationship="rootViewController" id="VDR-J3-bwD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Acd-KV-iIr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
         </scene>
     </scenes>
     <resources>

@@ -44,12 +44,12 @@ class UserNameViewController: UIViewController {
 
     }
     
-    @IBAction func usernameNextButtonTapped(_ sender: UIButton) {
-        
-    }
-    
     @IBAction func alreadyHaveAnAccountTapped(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func usernameNextButtonTapped(_ sender: UIButton) {
+        
     }
     
     @IBAction func appleLogInButtonTapped(_ sender: UIButton) {
@@ -63,4 +63,5 @@ class UserNameViewController: UIViewController {
     @IBAction func googleLogInButtonTapped(_ sender: UIButton) {
         
     }
+
 } //End of class

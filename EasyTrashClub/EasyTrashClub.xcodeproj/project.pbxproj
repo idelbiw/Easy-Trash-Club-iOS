@@ -214,7 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				1257C6B32497009900E4EC91 /* Menu */,
-				122CDE432492BCE3009CA994 /* GetStarted */,
+				122CDE432492BCE3009CA994 /* Registration */,
 				12245C642491E2AD004561E0 /* Login */,
 				12245C5D2491DAA4004561E0 /* Opening */,
 			);
@@ -282,7 +282,7 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		122CDE432492BCE3009CA994 /* GetStarted */ = {
+		122CDE432492BCE3009CA994 /* Registration */ = {
 			isa = PBXGroup;
 			children = (
 				122CDE442492BD03009CA994 /* UserNameViewController.swift */,
@@ -292,7 +292,7 @@
 				122CDE4F2492C6CD009CA994 /* UserProfileImageViewController.swift */,
 				122CDE512492C6DD009CA994 /* UserPasswordViewController.swift */,
 			);
-			path = GetStarted;
+			path = Registration;
 			sourceTree = "<group>";
 		};
 		122CDE482492C583009CA994 /* MainApp */ = {
@@ -806,7 +806,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.EasyTrashClub.EasyTrashClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -826,7 +826,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.EasyTrashClub.EasyTrashClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

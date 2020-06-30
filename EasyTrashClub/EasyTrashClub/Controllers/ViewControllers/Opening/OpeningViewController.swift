@@ -11,11 +11,14 @@ import AVFoundation
 
 class OpeningViewController: UIViewController {
     
+    //MARK: - IBOutlets and Properties -
+    
     var player: AVPlayer?
 
     @IBOutlet weak var getStartedButton: UIButton!
     @IBOutlet weak var logInButton: UIButton!
     
+    //MARK: - Methods -
     
     override func viewDidLoad() {
         
@@ -31,6 +34,7 @@ class OpeningViewController: UIViewController {
         logInButton.layer.cornerRadius = logInButton.frame.size.height / 2
         logInButton.layer.borderWidth = 1
         logInButton.layer.borderColor = #colorLiteral(red: 0.422770083, green: 0.7957450747, blue: 0, alpha: 1)
+        
     }
     
 //    func configureVideoBackground() {
@@ -52,4 +56,4 @@ class OpeningViewController: UIViewController {
     
     
 
-}
+} //End of class

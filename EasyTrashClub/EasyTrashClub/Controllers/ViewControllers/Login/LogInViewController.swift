@@ -10,6 +10,8 @@ import UIKit
 
 @IBDesignable
 class LogInViewController: UIViewController {
+    
+    //MARK: - IBOutlets -
 
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
@@ -19,7 +21,7 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var facebookLoginButton: UIButton!
     @IBOutlet weak var googleLoginButton: UIButton!
     
-    //MARK: - IBActions and Methods
+    //MARK: - IBActions and Methods -
     
     override func viewDidLoad() {
         super.viewDidLoad()
