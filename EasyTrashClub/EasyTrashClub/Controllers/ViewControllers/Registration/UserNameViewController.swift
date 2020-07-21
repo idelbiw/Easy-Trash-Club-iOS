@@ -22,10 +22,8 @@ class UserNameViewController: UIViewController {
     //MARK: - IBActions and Methods -
     
     override func viewDidLoad() {
-        
         super.viewDidLoad()
         configureButtons()
-        
     }
     
     func configureButtons() {
@@ -49,6 +47,8 @@ class UserNameViewController: UIViewController {
     }
     
     @IBAction func usernameNextButtonTapped(_ sender: UIButton) {
+        
+        
         
     }
     

@@ -28,10 +28,11 @@
 		1257C6AF2496F75500E4EC91 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257C6AE2496F75500E4EC91 /* Menu.swift */; };
 		1257C6B22496F78500E4EC91 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257C6B12496F78500E4EC91 /* MenuController.swift */; };
 		1257C6B7249702A500E4EC91 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257C6B6249702A500E4EC91 /* MenuTableViewController.swift */; };
-		126A8C702494901900C80B5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 126A8C6F2494901900C80B5D /* GoogleService-Info.plist */; };
 		128105352493255500390BCF /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128105342493255500390BCF /* Menu.storyboard */; };
 		1EE4FE081A66419B8AE83F14 /* Pods_EasyTrashClub_EasyTrashClubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95D8378B3C35496D1A90011 /* Pods_EasyTrashClub_EasyTrashClubUITests.framework */; };
 		6192696C2E8793DD394901A9 /* Pods_EasyTrashClubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7775A2826FEF3AEEDE6DDC /* Pods_EasyTrashClubTests.framework */; };
+		7B60583724C67DC200466261 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B60583624C67DC200466261 /* User.swift */; };
+		7BE4C5E324B42E5000D85467 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BE4C5E224B42E4F00D85467 /* GoogleService-Info.plist */; };
 		D3555A9A0946DB939346C89C /* Pods_EasyTrashClub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F315B639649D980372B48F /* Pods_EasyTrashClub.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,13 +83,14 @@
 		1257C6AE2496F75500E4EC91 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		1257C6B12496F78500E4EC91 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		1257C6B6249702A500E4EC91 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
-		126A8C6F2494901900C80B5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		128105342493255500390BCF /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		13D731842573063D63BE3BCE /* Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests.release.xcconfig"; sourceTree = "<group>"; };
 		34C559AC90EDC836F470DAFD /* Pods-EasyTrashClubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClubTests.debug.xcconfig"; path = "Target Support Files/Pods-EasyTrashClubTests/Pods-EasyTrashClubTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B9FFE4172A493FB56B9E171 /* Pods-EasyTrashClub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClub.release.xcconfig"; path = "Target Support Files/Pods-EasyTrashClub/Pods-EasyTrashClub.release.xcconfig"; sourceTree = "<group>"; };
 		6F7775A2826FEF3AEEDE6DDC /* Pods_EasyTrashClubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyTrashClubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7888DEADBFB088EC97727B77 /* Pods-EasyTrashClub-EasyTrashClubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClub-EasyTrashClubUITests.debug.xcconfig"; path = "Target Support Files/Pods-EasyTrashClub-EasyTrashClubUITests/Pods-EasyTrashClub-EasyTrashClubUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B60583624C67DC200466261 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7BE4C5E224B42E4F00D85467 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A6C25011F4BD5E29D60B4A2C /* Pods-EasyTrashClubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrashClubTests.release.xcconfig"; path = "Target Support Files/Pods-EasyTrashClubTests/Pods-EasyTrashClubTests.release.xcconfig"; sourceTree = "<group>"; };
 		C95D8378B3C35496D1A90011 /* Pods_EasyTrashClub_EasyTrashClubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyTrashClub_EasyTrashClubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -146,10 +148,10 @@
 		12245C232491D1BC004561E0 /* EasyTrashClub */ = {
 			isa = PBXGroup;
 			children = (
+				12245C572491D731004561E0 /* Resources */,
 				12245C552491D704004561E0 /* Models */,
 				12245C562491D70F004561E0 /* Views */,
 				12245C542491D6F8004561E0 /* Controllers */,
-				12245C572491D731004561E0 /* Resources */,
 			);
 			path = EasyTrashClub;
 			sourceTree = "<group>";
@@ -184,7 +186,8 @@
 		12245C552491D704004561E0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1257C6B02496F75A00E4EC91 /* New Group */,
+				7B60583524C67D7F00466261 /* User */,
+				1257C6B02496F75A00E4EC91 /* Menu */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -205,7 +208,7 @@
 				12245C262491D1BC004561E0 /* SceneDelegate.swift */,
 				12245C2D2491D1C6004561E0 /* Assets.xcassets */,
 				12245C322491D1C6004561E0 /* Info.plist */,
-				126A8C6F2494901900C80B5D /* GoogleService-Info.plist */,
+				7BE4C5E224B42E4F00D85467 /* GoogleService-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -311,12 +314,12 @@
 			path = Registration;
 			sourceTree = "<group>";
 		};
-		1257C6B02496F75A00E4EC91 /* New Group */ = {
+		1257C6B02496F75A00E4EC91 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
 				1257C6AE2496F75500E4EC91 /* Menu.swift */,
 			);
-			path = "New Group";
+			path = Menu;
 			sourceTree = "<group>";
 		};
 		1257C6B32497009900E4EC91 /* Menu */ = {
@@ -340,6 +343,14 @@
 			children = (
 			);
 			path = Videos;
+			sourceTree = "<group>";
+		};
+		7B60583524C67D7F00466261 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				7B60583624C67DC200466261 /* User.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 		7C519D72EE45FF35D9D06800 /* Pods */ = {
@@ -475,7 +486,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				128105352493255500390BCF /* Menu.storyboard in Resources */,
-				126A8C702494901900C80B5D /* GoogleService-Info.plist in Resources */,
+				7BE4C5E324B42E5000D85467 /* GoogleService-Info.plist in Resources */,
 				12245C632491DF7A004561E0 /* Login.storyboard in Resources */,
 				12245C312491D1C6004561E0 /* LaunchScreen.storyboard in Resources */,
 				12245C2E2491D1C6004561E0 /* Assets.xcassets in Resources */,
@@ -615,6 +626,7 @@
 				122CDE472492BD10009CA994 /* UserLocationViewController.swift in Sources */,
 				12245C5F2491DABF004561E0 /* OpeningViewController.swift in Sources */,
 				1257C6B22496F78500E4EC91 /* MenuController.swift in Sources */,
+				7B60583724C67DC200466261 /* User.swift in Sources */,
 				12245C272491D1BC004561E0 /* SceneDelegate.swift in Sources */,
 				1257C6AF2496F75500E4EC91 /* Menu.swift in Sources */,
 				122CDE452492BD03009CA994 /* UserNameViewController.swift in Sources */,

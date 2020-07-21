@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1068578327290-s1l18i76boifjdp4p7ua46a7nqpu75dm.apps.googleusercontent.com</string>
+	<string>488544714228-8angu3cjpk6urco015hv1c1bh6bhcmtp.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1068578327290-s1l18i76boifjdp4p7ua46a7nqpu75dm</string>
+	<string>com.googleusercontent.apps.488544714228-8angu3cjpk6urco015hv1c1bh6bhcmtp</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDXPrWgLfBN6P03TXjIj7Ug7evzKWNFcxA</string>
+	<string>AIzaSyBVWDfPUCkTRYNvH4H8k7GFAFrLkwKwjvs</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1068578327290</string>
+	<string>488544714228</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.EasyTrashClub.EasyTrashClub</string>
 	<key>PROJECT_ID</key>
-	<string>easytrashclub</string>
+	<string>easytrashclub-ios</string>
 	<key>STORAGE_BUCKET</key>
-	<string>easytrashclub.appspot.com</string>
+	<string>easytrashclub-ios.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1068578327290:ios:3ff3f6f3c27f2495a55743</string>
+	<string>1:488544714228:ios:3d91834a8678a2ab298da1</string>
 	<key>DATABASE_URL</key>
-	<string>https://easytrashclub.firebaseio.com</string>
+	<string>https://easytrashclub-ios.firebaseio.com</string>
 </dict>
 </plist>

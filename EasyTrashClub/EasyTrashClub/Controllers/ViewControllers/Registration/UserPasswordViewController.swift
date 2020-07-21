@@ -31,6 +31,8 @@ class UserPasswordViewController: UIViewController {
     
     @IBAction func userPasswordTextFieldEdited(_ sender: UITextField) {
         
+        
+        
     }
     
     @IBAction func userConfirmPasswordTextFieldEdited(_ sender: UITextField) {
